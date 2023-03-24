@@ -1,0 +1,119 @@
+#quem-sou{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+#quem-sou .col-5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quem-sou img{
+    width: 80%;
+
+    border-radius: 100%;
+}
+#quem-sou p{
+    background-color: var(--gold);
+
+    padding: 15px;
+    border-radius: 25px;
+
+    font-size: 18px;
+}
+
+#info{ font-size: 24px; }
+
+#redes .col-6{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#redes img{
+    margin-right: 10px;
+}
+
+#formacoes-titulo .col-12{
+    background-color: var(--tan);
+    text-align: center;
+}
+
+.formacao{
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+}
+.formacao img{
+    width: 100%;
+}
+.formacao p{
+    background-color: var(--gold);
+
+    border-radius: 15px;
+}
+
+
+
+/* Mobile */
+@media only screen and (min-width: 360px) {
+    #quem-sou .col-5{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #quem-sou .col-7{ width: 100%; }
+
+    #info{ font-size: 18px; }
+
+    #redes .col-6{ flex-direction: column; }
+    #redes img{
+        width: 30px;
+        height: 30px;
+    }
+    #redes a{ font-size: 18px; }
+
+    .formacao p{ font-size: 18px; }
+}
+
+
+
+/* Tablets */
+@media only screen and (min-width: 960px) {
+    #quem-sou .col-5 { width: 41.66%; }
+    #quem-sou .col-7 { width: 58.33%; }
+
+    #info{ font-size: 22px; }
+
+    #redes .col-6{ flex-direction: row; }
+    #redes img{
+        width: 40px;
+        height: 40px;
+    }
+    #redes a{ font-size: 22px; }
+
+    .formacao p{ font-size: 22px; }
+}
+
+
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+    #quem-sou .col-5 { width: 41.66%; }
+    #quem-sou .col-7 { width: 58.33%; }
+
+    #info{ font-size: 24px; }
+
+    #redes .col-6{ flex-direction: row; }
+    #redes img{
+        width: 50px;
+        height: 50px;
+    }
+    #redes a{ font-size: 24px; }
+
+    .formacao p{ font-size: 24px; }
+}
