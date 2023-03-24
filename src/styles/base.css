@@ -40,9 +40,14 @@
     display: table;
 }
 
+.escuro { background-color: var(--charcoal); }
+.claro { background-color: var(--cream); }
+
 header a{
-    margin: 5px;
-    padding: 0px;
+    margin: 2px;
+    padding: 3px;
+
+    background-color: var(--gold);
 
     text-decoration: none;
 
@@ -113,37 +118,20 @@ footer{
 
 /* Tablets */
 @media only screen and (min-width: 960px) {
-    .col-1 { width: 8.33%; }
-    .col-2 { width: 16.66%; }
-    .col-3 { width: 25%; }
-    .col-4 { width: 33.33%; }
-    .col-5 { width: 41.66%; }
-    .col-6 { width: 50%; }
-    .col-7 { width: 58.33%; }
-    .col-8 { width: 66.66%; }
-    .col-9 { width: 75%; }
-    .col-10 { width: 83.33%; }
-    .col-11 { width: 91.66%; }
-    .col-12 { width: 100%; }
+    header .img{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 
 
 /* Desktop */
 @media only screen and (min-width: 1280px) {
-    .col-1 { width: 8.33%; }
-    .col-2 { width: 16.66%; }
-    .col-3 { width: 25%; }
-    .col-4 { width: 33.33%; }
-    .col-5 { width: 41.66%; }
-    .col-6 { width: 50%; }
-    .col-7 { width: 58.33%; }
-    .col-8 { width: 66.66%; }
-    .col-9 { width: 75%; }
-    .col-10 { width: 83.33%; }
-    .col-11 { width: 91.66%; }
-    .col-12 { width: 100%; }
-
+    #header-logo .img{
+        width: 100px;
+        height: 100px;
+    }
     header .col-4{
         display: flex;
         height: 100%;
