@@ -1,5 +1,8 @@
 #sub-header {
     background-color: var(--gold);
+
+    border-bottom: 1px solid var(--charcoal);
+
     text-align: center;
 }
 #sub-header a{
@@ -30,10 +33,11 @@
     align-items: center;
 }
 #quem-sou .col-5{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
 }
 #quem-sou img{
     width: 80%;
@@ -45,6 +49,7 @@
     background-color: var(--gold);
 
     padding: 15px;
+    border: 1px solid var(--charcoal);
     border-radius: 25px;
 
     font-size: 18px;
@@ -61,6 +66,8 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+
+    border: 1px solid var(--charcoal);
 }
 #redes img{
     margin-right: 10px;
@@ -69,6 +76,8 @@
 #formacoes-titulo .col-12{
     background-color: var(--tan);
     text-align: center;
+
+    font-size: 32px;
 }
 
 .formacao{
