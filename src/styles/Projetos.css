@@ -22,8 +22,6 @@
     .projeto .col-6{ width: 90%; }
     .projeto .col-5{ width: 80%; }
     .projeto p{ font-size: 14px; }
-
-    .divisor { height: 2.5px; }
 }
 
 
@@ -32,8 +30,6 @@
 @media only screen and (min-width: 960px) {
     .projeto{ flex-direction: row; }
     .projeto p{ font-size: 22px; }
-
-    .divisor { height: 5px; }
 }
 
 
@@ -42,6 +38,4 @@
 @media only screen and (min-width: 1280px) {
     .projeto{ flex-direction: row; }
     .projeto p{ font-size: 24px; }
-
-    .divisor { height: 5px; }
 }
