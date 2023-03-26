@@ -1,0 +1,43 @@
+.hobbie{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hobbie img{
+    width: 100%;
+}
+.hobbie p{
+    background-color: var(--gold);
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+
+/* Mobile */
+@media only screen and (min-width: 360px) {
+    .hobbie{ flex-direction: column; }
+    .hobbie .col-6{ width: 90%; }
+    .hobbie .col-5{ width: 80%; }
+    .hobbie p{ font-size: 14px; }
+}
+
+
+
+/* Tablets */
+@media only screen and (min-width: 960px) {
+    .hobbie{ flex-direction: row; }
+    .hobbie p{ font-size: 22px; }
+}
+
+
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+    .hobbie{ flex-direction: row; }
+    .hobbie p{ font-size: 24px; }
+}
