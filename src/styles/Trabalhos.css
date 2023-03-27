@@ -1,0 +1,42 @@
+.trabalho h1{
+    background-color: var(--tan);
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+}
+.trabalho p{
+    padding: 5px 15px;
+}
+
+.trabcont{
+    background-color: var(--gold);
+    padding: 10px 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+
+/* Mobile */
+@media only screen and (min-width: 360px) {
+    .trabcont{
+        font-size: 14px;
+    }
+}
+
+
+
+/* Tablets */
+@media only screen and (min-width: 960px) {
+    .trabcont{
+        font-size: 24px;
+    }
+}
+
+
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+    .trabcont{
+        font-size: 32px;
+    }
+}
