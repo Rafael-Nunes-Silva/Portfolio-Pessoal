@@ -1,0 +1,40 @@
+{
+    "Projetos": [
+        {
+            "imagem": "static/images/Projetos/Criador-de-lista-de-tarefas.PNG",
+            "nome": "Criador-de-lista-de-tarefas",
+            "link": "https://github.com/Rafael-Nunes-Silva/Criador-de-lista-de-tarefas",
+            "texto": "A ideia para esse projeto veio com as primeiras aulas de Python no curso de Desenvolvimento de Software Multiplataforma. Toda lista de exercícios passada pelo professor deveria ser entregue por email em um arquivo .txt que contivesse os códigos de cada exercicio, porem, abrir cada arquivo de exercicio para dar Ctrl+C e Ctrl+V dentro de um arquivo de texto era algo entediante e repetitivo, por isso fiz esse programa para automatizar essa etapa."
+        },
+        {
+            "imagem": "static/images/Projetos/LinearEquationSolver.PNG",
+            "nome": "Linear-Equation-Solver",
+            "link": "https://github.com/Rafael-Nunes-Silva/Linear-Equation-Solver",
+            "texto": "Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações."
+        },
+        {
+            "imagem": "static/images/Projetos/TimeupTCC.PNG",
+            "nome": "<a href='https://tcctimeup.000webhostapp.com'>TimeUp</a>",
+            "link": "https://github.com/Rafael-Nunes-Silva/TCC-Timeup/",
+            "texto": "Esse foi o projeto de TCC do curso técnico em Desenvolvimento de Sistemas que fiz junto ao ensino médio. O projeto é um site que gera orçamentos de materiais de construção civil, as empresas se cadastrariam no site e colocariam seus produtos(contendo informações como tamanho, tipo, valor etc) a disposição no site e os usuários comuns poderiam se cadastrar e, utilizando o buscador de produtos do site, criar e salvar seus orçamentos."
+        },
+        {
+            "imagem": "static/images/Projetos/Hangman.PNG",
+            "nome": "<a href='https://github.com/Rafael-Nunes-Silva/Hangman-Website'>Hangman</a>",
+            "link": "https://rafael-nunes-silva.github.io/Hangman-Website/",
+            "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/Cascading_Style_Sheets'>CSS</a> e <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site com o cabeçalho com o nome do site e um botão para mudar entre as linguagens português e inglês, o jogo da forca, um botão para riniciar o jogo e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Projetos/Sudoku.PNG",
+            "nome": "<a href='https://github.com/Rafael-Nunes-Silva/Sudoku-Website'>Sudoku",
+            "link": "https://github.com/Rafael-Nunes-Silva/Sudoku-Website",
+            "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, o jogo Sudoku no centro, um seletor de dificuldade, um botão para riniciar o jogo e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Projetos/Tic-Tac-Toe.PNG",
+            "nome": "<a href='https://rafael-nunes-silva.github.io/Tic-Tac-Toe-Website/'>Tic-Tac-Toe</a>",
+            "link": "https://github.com/Rafael-Nunes-Silva/Tic-Tac-Toe-Website",
+            "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, a tablea do jogo-da-velha no centro e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
+        }
+    ]
+}

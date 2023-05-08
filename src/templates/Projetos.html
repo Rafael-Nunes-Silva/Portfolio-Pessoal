@@ -10,89 +10,19 @@
 
 {% block content %}
     <div id="content">
-        <div class="claro ano-dropdown">
-            <button id="ano-dropdown"></button>
+        {% autoescape false %}
+        {% for projeto in projetos %}
             <div class="escuro projeto row">
                 <div class="col-6">
-                    <img src="static/images/Projetos/Criador-de-lista-de-tarefas.PNG">
+                    <img src="{{ projeto.imagem }}">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-5">
-                    <p>Criador-de-lista-de-tarefas | <a href="https://github.com/Rafael-Nunes-Silva/Criador-de-lista-de-tarefas">Projeto</a><br><br>A ideia para esse projeto veio com as primeiras aulas de Python no curso de Desenvolvimento de Software Multiplataforma. Toda lista de exercícios passada pelo professor deveria ser entregue por email em um arquivo .txt que contivesse os códigos de cada exercicio, porem, abrir cada arquivo de exercicio para dar Ctrl+C e Ctrl+V dentro de um arquivo de texto era algo entediante e repetitivo, por isso fiz esse programa para automatizar essa etapa.</p>
+                    <p>{{ projeto.nome }} | <a href="{{ projeto.link }}">Projeto</a><br><br>{{ projeto.texto }}</p>
                 </div>
             </div>
             <div class="divisor row"></div>
-            <div class="escuro projeto row">
-                <div class="col-6">
-                    <img src="static/images/Projetos/LinearEquationSolver.PNG">
-                </div>
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <p>Linear-Equation-Solver | <a href="https://github.com/Rafael-Nunes-Silva/Linear-Equation-Solver">Projeto</a><br><br>Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações.</p>
-                </div>
-            </div>
-            <div class="divisor row"></div>
-        </div>
-
-
-        <div class="escuro projeto row">
-            <div class="col-6">
-                <img src="static/images/Projetos/Criador-de-lista-de-tarefas.PNG">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p>Criador-de-lista-de-tarefas | <a href="https://github.com/Rafael-Nunes-Silva/Criador-de-lista-de-tarefas">Projeto</a><br><br>A ideia para esse projeto veio com as primeiras aulas de Python no curso de Desenvolvimento de Software Multiplataforma. Toda lista de exercícios passada pelo professor deveria ser entregue por email em um arquivo .txt que contivesse os códigos de cada exercicio, porem, abrir cada arquivo de exercicio para dar Ctrl+C e Ctrl+V dentro de um arquivo de texto era algo entediante e repetitivo, por isso fiz esse programa para automatizar essa etapa.</p>
-            </div>
-        </div>
-        <div class="divisor row"></div>
-        <div class="escuro projeto row">
-            <div class="col-6">
-                <img src="static/images/Projetos/LinearEquationSolver.PNG">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p>Linear-Equation-Solver | <a href="https://github.com/Rafael-Nunes-Silva/Linear-Equation-Solver">Projeto</a><br><br>Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações.</p>
-            </div>
-        </div>
-        <div class="divisor row"></div>
-        <div class="escuro projeto row">
-            <div class="col-6">
-                <img src="static/images/Projetos/TimeupTCC.PNG">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p><a href="https://tcctimeup.000webhostapp.com">TimeUp</a> | <a href="https://github.com/Rafael-Nunes-Silva/TCC-Timeup/">Projeto</a><br><br>Esse foi o projeto de TCC do curso técnico em Desenvolvimento de Sistemas que fiz junto ao ensino médio. O projeto é um site que gera orçamentos de materiais de construção civil, as empresas se cadastrariam no site e colocariam seus produtos(contendo informações como tamanho, tipo, valor etc) a disposição no site e os usuários comuns poderiam se cadastrar e, utilizando o buscador de produtos do site, criar e salvar seus orçamentos.</p>
-            </div>
-        </div>
-        <div class="divisor row"></div>
-        <div class="escuro projeto row">
-            <div class="col-6">
-                <img src="static/images/Projetos/Hangman.PNG">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p><a href="https://github.com/Rafael-Nunes-Silva/Hangman-Website">Hangman</a> | <a href="https://rafael-nunes-silva.github.io/Hangman-Website/">Projeto</a><br><br>Esse foi um projeto que fiz para praticar principalmente <a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a> e <a href="https://pt.wikipedia.org/wiki/JavaScript">JavaScript</a>. O projeto consiste em um site com o cabeçalho com o nome do site e um botão para mudar entre as linguagens português e inglês, o jogo da forca, um botão para riniciar o jogo e o footer com um link para o <abbr title="Rafael-Nunes-Silva"><a href="https://github.com/Rafael-Nunes-Silva">meu perfil no Github</a></abbr>.</p>
-            </div>
-        </div>
-        <div class="divisor row"></div>
-        <div class="escuro projeto row">
-            <div class="col-6">
-                <img src="static/images/Projetos/Sudoku.PNG">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p><a href="https://github.com/Rafael-Nunes-Silva/Sudoku-Website">Sudoku</a> | <a href="https://github.com/Rafael-Nunes-Silva/Sudoku-Website">Projeto</a><br><br>Esse foi um projeto que fiz para praticar principalmente <a href="https://pt.wikipedia.org/wiki/JavaScript">JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, o jogo Sudoku no centro, um seletor de dificuldade, um botão para riniciar o jogo e o footer com um link para o <abbr title="Rafael-Nunes-Silva"><a href="https://github.com/Rafael-Nunes-Silva">meu perfil no Github</a></abbr>.</p>
-            </div>
-        </div>
-        <div class="divisor row"></div>
-        <div class="escuro projeto row">
-            <div class="col-6">
-                <img src="static/images/Projetos/Tic-Tac-Toe.PNG">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p><a href="https://rafael-nunes-silva.github.io/Tic-Tac-Toe-Website/">Tic-Tac-Toe</a> | <a href="https://github.com/Rafael-Nunes-Silva/Tic-Tac-Toe-Website">Projeto</a><br><br>Esse foi um projeto que fiz para praticar principalmente <a href="https://pt.wikipedia.org/wiki/JavaScript">JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, a tablea do jogo-da-velha no centro e o footer com um link para o <abbr title="Rafael-Nunes-Silva"><a href="https://github.com/Rafael-Nunes-Silva">meu perfil no Github</a></abbr>.</p>
-            </div>
-        </div>
+            {% endfor %}
+        {% endautoescape %}
     </div>
 {% endblock %}
