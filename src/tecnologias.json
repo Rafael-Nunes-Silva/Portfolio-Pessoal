@@ -1,0 +1,40 @@
+{
+    "Tecnologias": [
+        {
+            "imagem": "static/images/Tecnologias/c.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)'>C</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva?tab=repositories&language=c'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/c++.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)'>C</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva?tab=repositories&language=c'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/CSharp.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/C_Sharp'>C#</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/OpenGL.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/OpenGL'>OpenGL</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/Python.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/Python'>Python</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/sql.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/SQL'>SQL</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/HTML.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/HTML'>HTML</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/CSS.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/Cascading_Style_Sheets'>CSS</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meus repositórios no Github</a></abbr>."
+        },
+        {
+            "imagem": "static/images/Tecnologias/JavaScript.png",
+            "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meus repositórios no Github</a></abbr>."
+        }
+    ]
+}

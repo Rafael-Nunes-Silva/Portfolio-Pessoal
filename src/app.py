@@ -1,6 +1,5 @@
 from flask import Flask, render_template
 import json
-import html
 
 app = Flask(__name__, static_folder="./static", template_folder="./templates")
 
@@ -14,11 +13,6 @@ def renderTrabalhos():
 
 @app.route("/Projetos")
 def renderProjetos():
-    # projetos = ""
-    # with open("./projetos.json") as projetosFile:
-    #     projetos = json.loads(projetosFile.read())["Projetos"]
-
-    # projetos[-1]["texto"] = projetos[-1]["texto"].encode("utf_8").decode("utf_8")
     projetos = 0
     with open("./projetos.json") as projetosFile:
         projetos = json.loads(projetosFile.read().encode("latin_1").decode("utf_8"))["Projetos"]
@@ -31,4 +25,8 @@ def renderHobbies():
 
 @app.route("/Tecnologias")
 def renderTecnologias():
-    return render_template("Tecnologias.html")
+    tecnologias = 0
+    with open("./tecnologias.json") as tecnologiasFile:
+        tecnologias = json.loads(tecnologiasFile.read().encode("latin_1").decode("utf_8"))["Tecnologias"]
+
+    return render_template("Tecnologias.html", tecnologias = tecnologias)
