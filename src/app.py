@@ -13,8 +13,8 @@ def renderTrabalhos():
 
 @app.route("/Projetos")
 def renderProjetos():
-    projetos = 0
-    with open("./projetos.json") as projetosFile:
+    projetos = []
+    with open("./static/dados/projetos.json") as projetosFile:
         projetos = json.loads(projetosFile.read().encode("latin_1").decode("utf_8"))["Projetos"]
 
     return render_template("Projetos.html", projetos = projetos)
@@ -25,8 +25,8 @@ def renderHobbies():
 
 @app.route("/Tecnologias")
 def renderTecnologias():
-    tecnologias = 0
-    with open("./tecnologias.json") as tecnologiasFile:
+    tecnologias = []
+    with open("./static/dados/tecnologias.json") as tecnologiasFile:
         tecnologias = json.loads(tecnologiasFile.read().encode("latin_1").decode("utf_8"))["Tecnologias"]
 
     return render_template("Tecnologias.html", tecnologias = tecnologias)
