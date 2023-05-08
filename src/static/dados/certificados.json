@@ -1,0 +1,154 @@
+{
+    "Certificados": [
+        {
+            "texto": "Diploma do Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio na <abbr title='ETEC Professora Ilza Nascimento Pintus'><a href='http://www.etecsjcampos.com.br'>ETEC</a></abbr>.",
+            "imagem": "static/images/Certificados/Diploma Desenvolvimento de Sistemas Integrado ao Ensino Medio.jpg",
+            "imagemAlt": "Ensino Médio: Desenvolvimento de Sistemas"
+        },
+        {
+            "texto": "Curso avançando na linguagem C++ sobre performance e otimização. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Avançando com C++_ performance e otimização - Alura.png",
+            "imagemAlt": "Avançando com C++: performance e otimização"
+        },
+        {
+            "texto": "Curso de C++ e TDD sobre testes de unidade utilizando Catch2. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso C++ e TDD_ testes de unidade com Catch2 - Alura.png",
+            "imagemAlt": "C++ e TDD: testes de unidade com Catch2"
+        },
+        {
+            "texto": "Curso avançando na linguagem C++ sobre Enums, templates e mais recursos. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/certificados/Curso Avançando com C++_ Enum templates e mais recursos - Alura.png",
+            "imagemAlt": "Avançando com C++: Enum, templates e mais recursos"
+        },
+        {
+            "texto": "Curso de Orientação a Objetos em C++ sobre heranças. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Orientação a Objetos com C++_ trabalhando com herança - Alura.png",
+            "imagemAlt": "Orientação a Objetos com C++: trabalhando com herança"
+        },
+        {
+            "texto": "Curso de Orientação a Objetos em C++ sobre Classes, Métodos e Atributos. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Orientação a Objetos com C++_ Classes métodos e atributos - Alura.png",
+            "imagemAlt": "Orientação a Objetos com C++: Classes, métodos e atributos"
+        },
+        {
+            "texto": "Curso inicial de C++. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso C++_ Conhecendo a linguagem e a STL - Alura.png",
+            "imagemAlt": "++: Conhecendo a linguagem e a STL"
+        },
+        {
+            "texto": "Curso os recursos avançados da linguagem C. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso C_ recursos avançados da linguagem - Alura.png",
+            "imagemAlt": "C: recursos avançados da linguagem"
+        },
+        {
+            "texto": "Curso avançando na linguagem. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso C_ avançando na linguagem - Alura.png",
+            "imagemAlt": "C: avançando na linguagem"
+        },
+        {
+            "texto": "Curso inicial de C. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso C_ conhecendo a Linguagem das Linguagens - Alura.png",
+            "imagemAlt": "C: conhecendo a Linguagem das Linguagens"
+        },
+        {
+            "texto": "Curso de Estrutura de Dados em Python com pilhas, filas e listas. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Estrutura de dados_ Pilhas, filas e listas com Python - Alura-cropped-1.png",
+            "imagemAlt": "Estrutura de dados: Pilhas, filas e listas com Python"
+        },
+        {
+            "texto": "Curso de Python 3 sobre tratamento de erros. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python 3_ entendendo o Tratamento de Erros - Alura.png",
+            "imagemAlt": "Python 3: entendendo o Tratamento de Erros"
+        },
+        {
+            "texto": "Curso de Python para Ciência de Dados com pandas. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python para Data Science_ Funções Pacotes e Pandas - Alura.png",
+            "imagemAlt": "Python para Data Science: Funções, Pacotes e Pandas"
+        },
+        {
+            "texto": "Curso de Python para Ciência de Dados com numpy. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python para Data Science_ linguagem e Numpy - Alura.png",
+            "imagemAlt": "Python para Data Science: linguagem e Numpy"
+        },
+        {
+            "texto": "Curso de Análise de Experimentos com testes, mapas de cores e análises de dados. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Análise de experimentos_ testes mapas de cores e análises dos dados - Alura.png",
+            "imagemAlt": "Análise de experimentos: testes, mapas de cores e análises dos dados"
+        },
+        {
+            "texto": "Curso de Regressão Linear sobre técnicas avançadas de modelagem. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Regressão Linear_ técnicas avançadas de modelagem - Alura.png",
+            "imagemAlt": "Regressão linear: técnicas avançadas de modelagem"
+        },
+        {
+            "texto": "Curso de Regressão Linear sobre testes de relações e previsão de resultados. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Regressão linear_ testando relações e prevendo resultados - Alura.png",
+            "imagemAlt": "Regressão linear: testando relações e prevendo resultados"
+        },
+        {
+            "texto": "Curso de ciência de dados sobre testes estatísticos com python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Data Science_ testes estatísticos com Python - Alura.png",
+            "imagemAlt": "Data Science: testes estatísticos"
+        },
+        {
+            "texto": "Curso de estatística sobre testes e hipóteses com Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Estatística com Python_ testes de hipóteses - Alura.png",
+            "imagemAlt": "Estatística com Python: testes de hipóteses"
+        },
+        {
+            "texto": "Curso de estatística sobre probabilidade e amostragem com Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Estatística com Python_ probabilidade e amostragem - Alura.png",
+            "imagemAlt": "Estatística com Python: probabilidade e amostragem"
+        },
+        {
+            "texto": "Curso de estatística sobre frequências e medidas com Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Estatística com Python_ frequências e medidas - Alura.png",
+            "imagemAlt": "Estatística com Python: frequências e medidas"
+        },
+        {
+            "texto": "Curso de testes automatizados com Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Testes automatizados_ TDD com Python - Alura.png",
+            "imagemAlt": "Python: TDD"
+        },
+        {
+            "texto": "Curso de validação de dados no padrão brasileiro em Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python Brasil_ validação de dados no padrão nacional - Alura.png",
+            "imagemAlt": "Python: validação de dados no padrão nacional"
+        },
+        {
+            "texto": "Parte 2 do curso de coleções em Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python Collections parte 2_ conjuntos e dicionários - Alura.png",
+            "imagemAlt": "Python: conjuntos e dicionários"
+        },
+        {
+            "texto": "Parte 1 do curso de coleções em Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python Collections parte 1_ listas e tuplas - Alura.png",
+            "imagemAlt": "Python: listas e tuplas"
+        },
+        {
+            "texto": "Curso de manipulação de strings em Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python_ Manipulação de Strings - Alura.png",
+            "imagemAlt": "Python: Manipulação de Strings"
+        },
+        {
+            "texto": "Curso avançando na orientação a objetos em Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python_ avançando na orientação a objetos - Alura.png",
+            "imagemAlt": "Python: avançando na orientação a objetos"
+        },
+        {
+            "texto": "Curso de início a orientação a objetos em Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python_ entendendo a Orientação a Objetos - Alura.png",
+            "imagemAlt": "Python: entendendo a Orientação a Objetos"
+        },
+        {
+            "texto": "Curso avançando na linguagem Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python_ avançando na linguagem - Alura.png",
+            "imagemAlt": "Python: avançando na linguagem"
+        },
+        {
+            "texto": "Curso inicial de Python. Feito na <a href='https://cursos.alura.com.br/user/rafaelnunesilva20'>Alura</a>.",
+            "imagem": "static/images/Certificados/Curso Python_ começando com a linguagem - Alura.png",
+            "imagemAlt": "Python: começando com a linguagem"
+        }
+    ]
+}
