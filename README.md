@@ -10,6 +10,9 @@
 * Possui o arquivo <a href="https://github.com/Rafael-Nunes-Silva/Portfolio-Pessoal/blob/main/src/app.py">`app.py`</a> que é o ponto inicial de onde o Flask rodará.
 * Possui o arquivo <a href="https://github.com/Rafael-Nunes-Silva/Portfolio-Pessoal/blob/main/src/requirements.txt">`requirements.txt`</a> com os requisitos para rodar o projeto.
 
+## Tecnologias utilizadas
+* Flask
+
 ## Como rodar
 Para rodar o projeto abra um terminal dentro da pasta src do projeto e siga as instruções abaixo:
 * Inicie um ambiente virtual dentro da pasta src do projeto com o comando: `python -m venv venv`
