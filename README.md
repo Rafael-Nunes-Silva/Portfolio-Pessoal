@@ -11,7 +11,11 @@
 * Possui o arquivo <a href="https://github.com/Rafael-Nunes-Silva/Portfolio-Pessoal/blob/main/src/requirements.txt">`requirements.txt`</a> com os requisitos para rodar o projeto.
 
 ## Tecnologias utilizadas
+* HTML
+* CSS
+* Python
 * Flask
+* Jinja2
 
 ## Como rodar
 Para rodar o projeto abra um terminal dentro da pasta src do projeto e siga as instruções abaixo:
