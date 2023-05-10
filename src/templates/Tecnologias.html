@@ -12,29 +12,35 @@
     <div id="content">
         <div class="tecnologias row">
         {% autoescape false %}
+        {% set invNS = namespace(inverse = false) %}
         {% for tecnologia in tecnologias %}
             {% if loop.first %}
-                {% set posicao = 'primeira' %}
+                {% set posicao = "primeira" %}
             {% elif loop.last %}
-                {% set cor = 'ultima' %}
+                {% set cor = "ultima" %}
             {% else %}
-                {% set cor = '' %}
+                {% set cor = "" %}
             {% endif %}
 
             {% if loop.index % 2 == 0 %}
-                {% set cor = 'escuro' %}
+                {% set cor = "escuro" if invNS.inverse else "claro" %}
             {% else %}
-                {% set cor = 'claro' %}
+                {% set cor = "claro" if invNS.inverse else "escuro" %}
             {% endif %}
 
             <div class="{{ cor }} {{ posicao }} tecnologia col-2">
                 <img src="{{ tecnologia.imagem }}" alt="ícone">
                 <p>{{ tecnologia.texto }}</p>
             </div>
-        {% if loop.index % 6 == 0 %}
-        </div>
-        <div class="tecnologias row">
-        {% endif %}
+            {% if loop.index % 6 == 0 %}
+                {% if invNS.inverse == true %}
+                    {% set invNS.inverse = false %}
+                {% else %}
+                    {% set invNS.inverse = true %}
+                {% endif %}
+                </div>
+                <div class="tecnologias row">
+            {% endif %}
         {% endfor %}
         {% endautoescape %}
         </div>
