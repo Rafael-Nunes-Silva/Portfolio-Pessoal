@@ -16,11 +16,13 @@ def renderTrabalhos():
 
 @app.route("/Projetos")
 def renderProjetos():
-    projetos = []
+    projetosAcademicos, projetosPessoais = [], []
     with open("./static/dados/projetos.json") as projetosFile:
-        projetos = json.loads(projetosFile.read().encode("latin_1").decode("utf_8"))["Projetos"]
+        fileContent = projetosFile.read().encode("latin_1").decode("utf_8")
+        projetosAcademicos = json.loads(fileContent)["ProjetosAcademicos"]
+        projetosPessoais = json.loads(fileContent)["ProjetosPessoais"]
 
-    return render_template("Projetos.html", projetos = projetos)
+    return render_template("Projetos.html", projetosAcademicos = projetosAcademicos, projetosPessoais = projetosPessoais)
 
 @app.route("/Hobbies")
 def renderHobbies():
