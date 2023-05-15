@@ -4,6 +4,10 @@
     <link rel="stylesheet" href="static/css/Projetos.css">
 {% endblock %}
 
+{% block script %}
+    <script src="static/js/Projetos.js" defer></script>
+{% endblock %}
+
 {% block title %}
     <title>Projetos</title>
 {% endblock %}
@@ -11,18 +15,36 @@
 {% block content %}
     <div id="content">
         {% autoescape false %}
-        {% for projeto in projetos %}
-            <div class="escuro projeto row">
-                <div class="col-6">
-                    <img src="{{ projeto.imagem }}">
+        <div class="proj-dropdown" id="proj-academicos">
+            <button class="proj-dropdown-btn" id="proj-academicos-btn">Projetos Academicos</button>
+            {% for projeto in projetos %}
+                <div class="escuro projeto row">
+                    <div class="col-6">
+                        <img src="{{ projeto.imagem }}">
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-5">
+                        <p>{{ projeto.nome }} | <a href="{{ projeto.link }}">Projeto</a><br><br>{{ projeto.texto }}</p>
+                    </div>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <p>{{ projeto.nome }} | <a href="{{ projeto.link }}">Projeto</a><br><br>{{ projeto.texto }}</p>
+                <div class="divisor row"></div>
+            {% endfor %}
+        </div>
+        <div class="proj-dropdown" id="proj-pessoais">
+            <button class="proj-dropdown-btn" id="proj-pessoais-btn">Projetos Pessoais</button>
+            {% for projeto in projetos %}
+                <div class="escuro projeto row">
+                    <div class="col-6">
+                        <img src="{{ projeto.imagem }}">
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-5">
+                        <p>{{ projeto.nome }} | <a href="{{ projeto.link }}">Projeto</a><br><br>{{ projeto.texto }}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="divisor row"></div>
-        {% endfor %}
+                <div class="divisor row"></div>
+            {% endfor %}
+        </div>
         {% endautoescape %}
     </div>
 {% endblock %}
