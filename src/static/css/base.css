@@ -39,12 +39,12 @@
     display: table;
 }
 
-.escuro { background-color: var(--charcoal); }
-.escuro p{ border: 1px solid var(--cream); }
-.escuro img{ border: 1px solid var(--cream); }
-.claro { background-color: var(--cream); }
-.claro p{ border: 1px solid var(--charcoal); }
-.claro img{ border: 1px solid var(--charcoal); }
+.escuro     { background-color: var(--charcoal); }
+.escuro p   { border: 1px solid var(--cream); }
+.escuro img { border: 1px solid var(--cream); }
+.claro      { background-color: var(--cream); }
+.claro p    { border: 1px solid var(--charcoal); }
+.claro img  { border: 1px solid var(--charcoal); }
 
 header{
     background-color: var(--tan);

@@ -31,6 +31,8 @@
 /* Tablets */
 @media only screen and (min-width: 960px) {
     .hobbie{ flex-direction: row; }
+    .hobbie .col-6{ width: 90%; }
+    .hobbie .col-5{ width: 80%; }
     .hobbie p{ font-size: 22px; }
 }
 
