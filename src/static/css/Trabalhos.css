@@ -1,3 +1,8 @@
+.trabalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .trabalho h1{
     background-color: var(--tan);
     padding: 5px;
@@ -18,6 +23,8 @@
 
 /* Mobile */
 @media only screen and (min-width: 360px) {
+    .trabalho{ flex-direction: column; }
+    .trabalho .col-5{ width: 83.33%; }
     .trabcont{
         font-size: 14px;
     }
@@ -27,6 +34,8 @@
 
 /* Tablets */
 @media only screen and (min-width: 960px) {
+    .trabalho{ flex-direction: row; }
+    .trabalho .col-5{ width: 41.66%;}
     .trabcont{
         font-size: 24px;
     }
@@ -36,6 +45,8 @@
 
 /* Desktop */
 @media only screen and (min-width: 1280px) {
+    .trabalho{ flex-direction: row; }
+    .trabalho .col-5{ width: 41.66%;}
     .trabcont{
         font-size: 32px;
     }
