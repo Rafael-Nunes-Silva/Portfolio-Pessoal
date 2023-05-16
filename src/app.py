@@ -12,7 +12,10 @@ def renderIndex():
 
 @app.route("/Trabalhos")
 def renderTrabalhos():
-    return render_template("Trabalhos.html")
+    trabalhos = []
+    with open("./static/dados/trabalhos.json") as trabalhosFile:
+        trabalhos = json.loads(trabalhosFile.read().encode("latin_1").decode("utf_8"))["Trabalhos"]
+    return render_template("Trabalhos.html", trabalhos = trabalhos)
 
 @app.route("/Projetos")
 def renderProjetos():

@@ -10,88 +10,28 @@
 
 {% block content %}
     <div id="content">
-        <!-- <div class="trabalho row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Trabalhando atualmente</p>
-                    <p>Descrição do cargo e o que fazia</p>
-                </div>
-            </div>
-            <div class="col-1"></div>
-        </div>
         <div class="trabalho row">
             <div class="col-1"></div>
-            <div class="col-10">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Fim: dd/mm/aaaa</p>
-                    <p>Descrição do cargo e o que fazia</p>
+            {% for trabalho in trabalhos %}
+                <div class="col-5">
+                    <h1>{{ trabalho.cargo }}</h1>
+                    <div class="trabcont">
+                        <p>Início: {{ trabalho.inicio }}</p>
+                        {% if loop.first %}
+                            <p>Trabalhando atualmente</p>
+                        {% else %}
+                            <p>Fim: {{ trabalho.fim }}</p>
+                        {% endif %}
+                        <p>{{ trabalho.descricao }}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-1"></div>
-        </div> -->
-        <div class="trabalho row">
-            <div class="col-1"></div>
-            <div class="col-5">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Trabalhando atualmente</p>
-                    <p>Descrição do cargo e do que faço. Descrição do cargo e do que faço. Descrição do cargo e do que faço. Descrição do cargo e do que faço.</p>
+                {% if not loop.first and not loop.last and loop.index % 2 == 0 %}
+                    <div class="col-1"></div>
                 </div>
-            </div>
-            <div class="col-5">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Fim: dd/mm/aaaa</p>
-                    <p>Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia.</p>
-                </div>
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="trabalho row">
-            <div class="col-1"></div>
-            <div class="col-5">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Fim: dd/mm/aaaa</p>
-                    <p>Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia.</p>
-                </div>
-            </div>
-            <div class="col-5">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Fim: dd/mm/aaaa</p>
-                    <p>Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia.</p>
-                </div>
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="trabalho row">
-            <div class="col-1"></div>
-            <div class="col-5">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Fim: dd/mm/aaaa</p>
-                    <p>Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia.</p>
-                </div>
-            </div>
-            <div class="col-5">
-                <h1>Nome do Cargo</h1>
-                <div class="trabcont">
-                    <p>Início: dd/mm/aaaa</p>
-                    <p>Fim: dd/mm/aaaa</p>
-                    <p>Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia.</p>
-                </div>
-            </div>
+                <div class="trabalho row">
+                    <div class="col-1"></div>
+                {% endif %}
+            {% endfor %}
             <div class="col-1"></div>
         </div>
     </div>

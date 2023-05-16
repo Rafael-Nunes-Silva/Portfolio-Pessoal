@@ -1,0 +1,28 @@
+{
+    "Trabalhos": [
+        {
+            "cargo": "Nome do Cargo Atual",
+            "inicio": "dd/mm/aaaa",
+            "fim": "dd/mm/aaaa",
+            "descricao": "Descrição do cargo e do que faço. Descrição do cargo e do que faço. Descrição do cargo e do que faço. Descrição do cargo e do que faço."
+        },
+        {
+            "cargo": "Nome do Cargo",
+            "inicio": "dd/mm/aaaa",
+            "fim": "dd/mm/aaaa",
+            "descricao": "Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia."
+        },
+        {
+            "cargo": "Nome do Cargo",
+            "inicio": "dd/mm/aaaa",
+            "fim": "dd/mm/aaaa",
+            "descricao": "Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia."
+        },
+        {
+            "cargo": "Nome do Cargo",
+            "inicio": "dd/mm/aaaa",
+            "fim": "dd/mm/aaaa",
+            "descricao": "Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia. Descrição do cargo e do que fazia."
+        }
+    ]
+}
