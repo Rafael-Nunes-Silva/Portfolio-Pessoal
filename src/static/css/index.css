@@ -120,6 +120,8 @@
     }
     #redes a{ font-size: 18px; }
 
+    #formacoes-titulo .col-12{ font-size: 20px; }
+
     .formacao p{ font-size: 14px; }
 }
 
@@ -140,6 +142,8 @@
     }
     #redes a{ font-size: 28px; }
 
+    #formacoes-titulo .col-12{ font-size: 32px; }
+
     .formacao p{ font-size: 22px; }
 }
 
@@ -159,6 +163,8 @@
         height: 50px;
     }
     #redes a{ font-size: 24px; }
+
+    #formacoes-titulo .col-12{ font-size: 32px; }
 
     .formacao p{ font-size: 24px; }
 }

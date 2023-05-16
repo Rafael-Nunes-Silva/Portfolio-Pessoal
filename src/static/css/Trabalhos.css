@@ -25,9 +25,8 @@
 @media only screen and (min-width: 360px) {
     .trabalho{ flex-direction: column; }
     .trabalho .col-5{ width: 83.33%; }
-    .trabcont{
-        font-size: 14px;
-    }
+    .trabalho h1{ font-size: 20px; }
+    .trabcont{ font-size: 14px; }
 }
 
 
@@ -36,9 +35,8 @@
 @media only screen and (min-width: 960px) {
     .trabalho{ flex-direction: row; }
     .trabalho .col-5{ width: 41.66%;}
-    .trabcont{
-        font-size: 24px;
-    }
+    .trabalho h1{ font-size: 28px; }
+    .trabcont{ font-size: 24px; }
 }
 
 
@@ -47,7 +45,6 @@
 @media only screen and (min-width: 1280px) {
     .trabalho{ flex-direction: row; }
     .trabalho .col-5{ width: 41.66%;}
-    .trabcont{
-        font-size: 32px;
-    }
+    .trabalho h1{ font-size: 32px; }
+    .trabcont{ font-size: 32px; }
 }
