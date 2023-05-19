@@ -102,14 +102,27 @@ header .col-4{
     border-radius: 5px;
 }
 
-#content{
-    min-height: 100vh;
-}
-
 body{
     background-color: var(--cream);
     max-width: 2560px;
     margin: auto;
+}
+
+#content{
+    min-height: 100vh;
+}
+
+p a{
+    background-color: var(--gold);
+    color: var(--charcoal);
+
+    border-radius: 5px;
+
+    transition: .15s;
+}
+p a:hover{
+    background-color: var(--charcoal);
+    color: var(--gold);
 }
 
 footer{
