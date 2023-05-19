@@ -13,7 +13,7 @@
 
     text-decoration: none;
 
-    border-radius: 15px;
+    border-radius: 5px;
 
     transition: .25s;
 }
@@ -52,7 +52,7 @@
 
     padding: 15px;
     border: 1px solid var(--charcoal);
-    border-radius: 25px;
+    border-radius: 5px;
 
     font-size: 18px;
 }
@@ -95,7 +95,7 @@
     background-color: var(--gold);
 
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 

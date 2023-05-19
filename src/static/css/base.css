@@ -63,7 +63,7 @@ header a{
 
     text-decoration: none;
 
-    border-radius: 15px;
+    border-radius: 5px;
 
     transition: .25s;
 }
@@ -99,7 +99,7 @@ header .col-4{
     height: 64px;
 
     border: 1px solid var(--charcoal);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #content{

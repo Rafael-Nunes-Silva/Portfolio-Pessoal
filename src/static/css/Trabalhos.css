@@ -6,7 +6,7 @@
 .trabalho h1{
     background-color: var(--tan);
     padding: 5px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     text-align: center;
 }
 .trabalho p{
@@ -16,7 +16,7 @@
 .trabcont{
     background-color: var(--gold);
     padding: 10px 0px;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 
