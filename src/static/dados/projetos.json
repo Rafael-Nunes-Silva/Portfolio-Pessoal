@@ -69,6 +69,12 @@
             "texto": "Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações."
         },
         {
+            "imagem": "static/images/Projetos/Pessoais/WebGL-Learning.PNG",
+            "nome": "<a href='https://rafael-nunes-silva.github.io/WebGL-Learning/'>WebGL-Learning</a>",
+            "link": "https://github.com/Rafael-Nunes-Silva/WebGL-Learning",
+            "texto": "Esse foi um projeto que fiz para aprender e praticar <a href='https://www.khronos.org/webgl/wiki/Main_Page'>WebGL</a>. O projeto consiste em uma página principal com uma lista de demos que fiz usando WebGL."
+        },
+        {
             "imagem": "static/images/Projetos/Pessoais/Hangman.PNG",
             "nome": "<a href='https://rafael-nunes-silva.github.io/Hangman-Website/'>Hangman</a>",
             "link": "https://github.com/Rafael-Nunes-Silva/Hangman-Website",
