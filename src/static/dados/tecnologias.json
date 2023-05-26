@@ -1,11 +1,11 @@
 {
     "Tecnologias": [
         {
-            "imagem": "static/images/Tecnologias/c.svg",
+            "imagem": "static/images/Tecnologias/C.svg",
             "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)'>C</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a target='_blank' href='https://github.com/Rafael-Nunes-Silva?tab=repositories&language=c'>meus repositórios no Github</a></abbr>."
         },
         {
-            "imagem": "static/images/Tecnologias/c++.svg",
+            "imagem": "static/images/Tecnologias/Cpp.svg",
             "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)'>C</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a target='_blank' href='https://github.com/Rafael-Nunes-Silva?tab=repositories&language=c%2B%2B'>meus repositórios no Github</a></abbr>."
         },
         {
@@ -21,11 +21,11 @@
             "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/Python'>Python</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a target='_blank' href='https://github.com/Rafael-Nunes-Silva?tab=repositories&language=python'>meus repositórios no Github</a></abbr>."
         },
         {
-            "imagem": "./static/images/Tecnologias/flask.svg",
+            "imagem": "./static/images/Tecnologias/Flask.svg",
             "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/Python'>Python</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a target='_blank' href='https://github.com/Rafael-Nunes-Silva?tab=repositories&language=python'>meus repositórios no Github</a></abbr>."
         },
         {
-            "imagem": "static/images/Tecnologias/sql.svg",
+            "imagem": "static/images/Tecnologias/SQL.svg",
             "texto": "Você pode conferir meus conhecimentos em <a href='https://pt.wikipedia.org/wiki/SQL'>SQL</a> dando uma olhada nos <abbr title='Rafael-Nunes-Silva'><a target='_blank' href='https://github.com/Rafael-Nunes-Silva?tab=repositories'>meus repositórios no Github</a></abbr>."
         },
         {
