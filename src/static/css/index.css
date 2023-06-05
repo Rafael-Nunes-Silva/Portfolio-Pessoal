@@ -114,69 +114,115 @@
 
 /* Mobile */
 @media only screen and (min-width: 360px) {
-    #quem-sou p{ font-size: 18px; }
+    #quem-sou p{
+        font-size: 18px;
+    }
     #quem-sou .col-5{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #quem-sou .col-7{ width: 100%; }
+    #quem-sou .col-7{
+        width: 100%;
+    }
 
-    #info{ font-size: 18px; }
+    #info{
+        font-size: 18px;
+    }
 
-    #redes .col-6{ flex-direction: column; }
+    #redes .col-6{
+        flex-direction: column;
+    }
     #redes img{
         width: 30px;
         height: 30px;
     }
-    #redes a{ font-size: 18px; }
+    #redes a{
+        font-size: 18px;
+    }
 
-    #formacoes-titulo .col-12{ font-size: 20px; }
+    #formacoes-titulo .col-12{
+        font-size: 20px;
+    }
 
-    .formacao p{ font-size: 14px; }
+    .formacao p{
+        font-size: 14px;
+    }
 }
 
 
 
 /* Tablets */
 @media only screen and (min-width: 960px) {
-    #quem-sou p{ font-size: 22px; }
-    #quem-sou .col-5 { width: 41.66%; }
-    #quem-sou .col-7 { width: 58.33%; }
+    #quem-sou p{
+        font-size: 22px;
+    }
+    #quem-sou .col-5 {
+        width: 41.66%;
+    }
+    #quem-sou .col-7 {
+        width: 58.33%;
+    }
 
-    #info{ font-size: 24px; }
+    #info{
+        font-size: 24px;
+    }
 
-    #redes .col-6{ flex-direction: row; }
+    #redes .col-6{
+        flex-direction: row;
+    }
     #redes img{
         width: 40px;
         height: 40px;
     }
-    #redes a{ font-size: 28px; }
+    #redes a{
+        font-size: 28px;
+    }
 
-    #formacoes-titulo .col-12{ font-size: 32px; }
+    #formacoes-titulo .col-12{
+        font-size: 32px;
+    }
 
-    .formacao p{ font-size: 22px; }
+    .formacao p{
+        font-size: 22px;
+    }
 }
 
 
 
 /* Desktop */
 @media only screen and (min-width: 1280px) {
-    #quem-sou p{ font-size: 24px; }
-    #quem-sou .col-5 { width: 41.66%; }
-    #quem-sou .col-7 { width: 58.33%; }
+    #quem-sou p{
+        font-size: 24px;
+    }
+    #quem-sou .col-5 {
+        width: 41.66%;
+    }
+    #quem-sou .col-7 {
+        width: 58.33%;
+    }
 
-    #info{ font-size: 32px; }
+    #info{
+        font-size: 32px;
+    }
 
-    #redes .col-6{ flex-direction: row; }
+    #redes .col-6{
+        flex-direction: row;
+    }
     #redes img{
         width: 50px;
         height: 50px;
     }
-    #redes a{ font-size: 24px; }
+    #redes a{
+        font-size: 24px;
+    }
 
-    #formacoes-titulo .col-12{ font-size: 32px; }
+    #formacoes-titulo .col-12{
+        font-size: 32px;
+    }
 
-    .formacao p{ font-size: 24px; }
+    .formacao p{
+        font-size: 24px;
+    }
 }

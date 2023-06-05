@@ -1,37 +1,27 @@
-.proj-dropdown{
-    background-color: var(--cream);
-}
-.proj-dropdown-btn{
-    background-color: var(--gold);
-
+.certRow{
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-    cursor: pointer;
-
-    width: 100%;
-    height: 50px;
-
-    font-size: 32px;
-}
-.proj-dropdown-btn img{
-    width: 50px;
-    height: 50px;
+    flex-direction: row;
 }
 
+body{
+    background-color: var(--charcoal);
+}
 
-
-.projeto{
-    /* display: flex; */
-
+.certificado{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
+
+    width: 50%;
+
+    padding: 30px;
 }
-.projeto img{
+.certificado img{
     width: 100%;
 }
-.projeto p{
+.certificado p{
     background-color: var(--gold);
 
     padding: 5px;
@@ -42,16 +32,15 @@
 
 /* Mobile */
 @media only screen and (min-width: 360px) {
-    .projeto{
+    .certRow{
+        display: flex;
         flex-direction: column;
+        align-items: center;
     }
-    .projeto .col-6{
-        width: 90%;
+    .certificado{
+        width: 100%;
     }
-    .projeto .col-5{
-        width: 80%;
-    }
-    .projeto p{
+    .certificado p{
         font-size: 14px;
     }
 }
@@ -60,10 +49,13 @@
 
 /* Tablets */
 @media only screen and (min-width: 960px) {
-    .projeto{
+    .certRow{
         flex-direction: row;
     }
-    .projeto p{
+    .certificado{
+        width: 50%;
+    }
+    .certificado p{
         font-size: 22px;
     }
 }
@@ -72,10 +64,13 @@
 
 /* Desktop */
 @media only screen and (min-width: 1280px) {
-    .projeto{
+    .certRow{
         flex-direction: row;
     }
-    .projeto p{
+    .certificado{
+        width: 50%;
+    }
+    .certificado p{
         font-size: 24px;
     }
 }

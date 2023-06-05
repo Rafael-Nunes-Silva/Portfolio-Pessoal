@@ -20,26 +20,46 @@
 
 /* Mobile */
 @media only screen and (min-width: 360px) {
-    .hobbie{ flex-direction: column; }
-    .hobbie .col-6{ width: 90%; }
-    .hobbie .col-5{ width: 80%; }
-    .hobbie p{ font-size: 14px; }
+    .hobbie{
+        flex-direction: column;
+    }
+    .hobbie .col-6{
+        width: 90%;
+    }
+    .hobbie .col-5{
+        width: 80%;
+    }
+    .hobbie p{
+        font-size: 14px;
+    }
 }
 
 
 
 /* Tablets */
 @media only screen and (min-width: 960px) {
-    .hobbie{ flex-direction: row; }
-    .hobbie .col-6{ width: 90%; }
-    .hobbie .col-5{ width: 80%; }
-    .hobbie p{ font-size: 22px; }
+    .hobbie{
+        flex-direction: row;
+    }
+    .hobbie .col-6{
+        width: 90%;
+    }
+    .hobbie .col-5{
+        width: 80%;
+    }
+    .hobbie p{
+        font-size: 22px;
+    }
 }
 
 
 
 /* Desktop */
 @media only screen and (min-width: 1280px) {
-    .hobbie{ flex-direction: row; }
-    .hobbie p{ font-size: 24px; }
+    .hobbie{
+        flex-direction: row;
+    }
+    .hobbie p{
+        font-size: 24px;
+    }
 }
