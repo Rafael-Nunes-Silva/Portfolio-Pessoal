@@ -10,20 +10,6 @@
 
 {% block content %}
     {% autoescape false %}
-        <!-- {% for certificado in certificados %}
-        {{ loop.index }}
-        <div class="row">
-            <div class="{{ cor }} certificado">
-                <div>
-                    <img src="{{ certificado.imagem }}" alt="{{ certificado.imagemAlt }}">
-                </div>
-                <div>
-                    <p>{{ certificado.texto }}</p>
-                </div>
-            </div>
-        </div>
-        {% endfor %} -->
-
         <div class="row certRow">
         {% for certificado in certificados %}
         {% if loop.index % 2 == 0 %}

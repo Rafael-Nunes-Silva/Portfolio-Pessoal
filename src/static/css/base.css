@@ -107,7 +107,9 @@ body{
     background-color: var(--cream);
     max-width: 2560px;
     margin: auto;
+}
 
+#content{
     min-height: 100vh;
 }
 

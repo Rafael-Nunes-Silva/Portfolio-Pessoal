@@ -9,8 +9,7 @@
 {% endblock %}
 
 {% block content %}
-    <div id="content">
-        <div class="tecnologias row">
+    <div class="tecnologias row">
         {% autoescape false %}
         {% set invNS = namespace(inverse = false) %}
         {% for tecnologia in tecnologias %}
@@ -43,6 +42,5 @@
             {% endif %}
         {% endfor %}
         {% endautoescape %}
-        </div>
     </div>
 {% endblock %}

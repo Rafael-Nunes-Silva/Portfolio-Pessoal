@@ -13,27 +13,25 @@
 {% endblock %}
 
 {% block content %}
-    <div id="content">
-        {% autoescape false %}
-        {% for periodo in periodos %}
-        <div class="proj-dropdown">
-            <button class="proj-dropdown-btn"><img src="static/images/Projetos/Open-Dropdown.svg"><img src="static/images/Projetos/Closed-Dropdown.svg">{{ periodo.periodo }}</button>
-            {% for projeto in periodo.projetos %}
-                <div class="escuro projeto row">
-                    <div class="col-6">
-                        <img src="{{ projeto.imagem }}">
-                    </div>
-                    <div class="col-1"></div>
-                    <div class="col-5">
-                        <p>{{ projeto.nome }} | <a href="{{ projeto.link }}">Projeto</a><br><br>{{ projeto.texto }}</p>
-                    </div>
+    {% autoescape false %}
+    {% for periodo in periodos %}
+    <div class="proj-dropdown">
+        <button class="proj-dropdown-btn"><img src="static/images/Projetos/Open-Dropdown.svg"><img src="static/images/Projetos/Closed-Dropdown.svg">{{ periodo.periodo }}</button>
+        {% for projeto in periodo.projetos %}
+            <div class="escuro projeto row">
+                <div class="col-6">
+                    <img src="{{ projeto.imagem }}">
                 </div>
-                {% if not loop.last %}
-                    <div class="divisor row"></div>
-                {% endif %}
-            {% endfor %}
-        </div>
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <p>{{ projeto.nome }} | <a href="{{ projeto.link }}">Projeto</a><br><br>{{ projeto.texto }}</p>
+                </div>
+            </div>
+            {% if not loop.last %}
+                <div class="divisor row"></div>
+            {% endif %}
         {% endfor %}
-        {% endautoescape %}
     </div>
+    {% endfor %}
+    {% endautoescape %}
 {% endblock %}

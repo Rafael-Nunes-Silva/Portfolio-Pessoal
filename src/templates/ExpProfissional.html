@@ -9,30 +9,28 @@
 {% endblock %}
 
 {% block content %}
-    <div id="content">
-        <div class="trabalho row">
-            <div class="col-1"></div>
-            {% for trabalho in trabalhos %}
-                <div class="col-5">
-                    <h1>{{ trabalho.cargo }}</h1>
-                    <div class="trabcont">
-                        <p>Início: {{ trabalho.inicio }}</p>
-                        {% if loop.first %}
-                            <p>Trabalhando atualmente</p>
-                        {% else %}
-                            <p>Fim: {{ trabalho.fim }}</p>
-                        {% endif %}
-                        <p>{{ trabalho.descricao }}</p>
-                    </div>
+    <div class="trabalho row">
+        <div class="col-1"></div>
+        {% for trabalho in trabalhos %}
+            <div class="col-5">
+                <h1>{{ trabalho.cargo }}</h1>
+                <div class="trabcont">
+                    <p>Início: {{ trabalho.inicio }}</p>
+                    {% if loop.first %}
+                        <p>Trabalhando atualmente</p>
+                    {% else %}
+                        <p>Fim: {{ trabalho.fim }}</p>
+                    {% endif %}
+                    <p>{{ trabalho.descricao }}</p>
                 </div>
-                {% if not loop.first and not loop.last and loop.index % 2 == 0 %}
-                    <div class="col-1"></div>
-                </div>
-                <div class="trabalho row">
-                    <div class="col-1"></div>
-                {% endif %}
-            {% endfor %}
-            <div class="col-1"></div>
-        </div>
+            </div>
+            {% if not loop.first and not loop.last and loop.index % 2 == 0 %}
+                <div class="col-1"></div>
+            </div>
+            <div class="trabalho row">
+                <div class="col-1"></div>
+            {% endif %}
+        {% endfor %}
+        <div class="col-1"></div>
     </div>
 {% endblock %}

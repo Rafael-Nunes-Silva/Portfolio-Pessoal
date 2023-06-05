@@ -10,12 +10,12 @@ def RenderIndex():
         certificados = json.loads(certificadosFile.read())["Certificados"]
     return render_template("index.html", certificados = certificados)
 
-@app.route("/ExperienciaProfissional")
-def RenderExpProfissional():
-    experiencias = []
-    with open("./static/dados/expProffisional.json", encoding="utf-8") as expFile:
-        experiencias = json.loads(expFile.read())["Experiencias"]
-    return render_template("ExpProfissional.html", experiencias = experiencias)
+# @app.route("/ExperienciasProfissionais")
+# def RenderExpProfissional():
+#     experiencias = []
+#     with open("./static/dados/expProffisional.json", encoding="utf-8") as expFile:
+#         experiencias = json.loads(expFile.read())["Experiencias"]
+#     return render_template("ExpProfissional.html", experiencias = experiencias)
 
 @app.route("/ProjetosAcademicos")
 def RenderProjetosAcademicos():
@@ -31,13 +31,20 @@ def RenderProjetosPessoais():
 def RenderHobbies():
     return render_template("Hobbies.html")
 
-@app.route("/Tecnologias")
-def RenderTecnologias():
-    tecnologias = []
-    with open("./static/dados/tecnologias.json", encoding="utf-8") as tecnologiasFile:
-        tecnologias = json.loads(tecnologiasFile.read())["Tecnologias"]
+@app.route("/Certificados")
+def RenderCertificados():
+    certificados = []
+    with open("./static/dados/certificados.json", encoding="utf-8") as certificadosFile:
+        certificados = json.loads(certificadosFile.read())["Certificados"]
+    return render_template("Certificados.html", certificados = certificados)
 
-    return render_template("Tecnologias.html", tecnologias = tecnologias)
+# @app.route("/Tecnologias")
+# def RenderTecnologias():
+#     tecnologias = []
+#     with open("./static/dados/tecnologias.json", encoding="utf-8") as tecnologiasFile:
+#         tecnologias = json.loads(tecnologiasFile.read())["Tecnologias"]
+
+#     return render_template("Tecnologias.html", tecnologias = tecnologias)
 
 def LoadProjetos(projetos):
     with open(projetos, encoding="utf-8") as projetosFile:
