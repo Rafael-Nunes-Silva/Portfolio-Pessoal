@@ -18,10 +18,10 @@
 * Jinja2
 
 ## Como rodar
-Para rodar o projeto abra um terminal dentro da pasta src do projeto e siga as instruções abaixo:
+Para rodar o projeto abra um terminal dentro da pasta `src` do projeto e siga as instruções abaixo:
 * Inicie um ambiente virtual dentro da pasta src do projeto com o comando: `python -m venv venv`.
 * Entre no ambiente virtual com o comando: `.\venv\Scripts\activate`.
 * Instale os requisitos dentro do ambiente virtual com o comando: `pip install -r requirements.txt`.
 * Caso o passo anterior não funcione, tente `pip install flask`.
 * Inicie o servidor web flask com o comando: `flask run`.
-* Abra o navegador de sua preferência e acesse a aplicação atraves de `127.0.0.1:5000`.
+* Abra o navegador de sua preferência e acesse a aplicação atraves de <a href="127.0.0.1:5000">`127.0.0.1:5000`</a>.

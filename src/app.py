@@ -43,3 +43,6 @@ def LoadProjetos(projetos):
     with open(projetos, encoding="utf-8") as projetosFile:
         fileContent = projetosFile.read()
         return json.loads(fileContent)["Periodos"]
+
+if __name__ == '__main__':
+    app.run(host = "0.0.0.0", port = "5000", debug = False)
