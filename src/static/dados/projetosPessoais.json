@@ -1,0 +1,62 @@
+{
+    "Periodos": [
+        {
+            "periodo": "2023",
+            "projetos": [
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Campo-Minado-Server.PNG",
+                    "nome": "Campo-Minado-Server",
+                    "link": "https://github.com/Rafael-Nunes-Silva/Campo-Minado-Server",
+                    "texto": "Esse é o servidor que possibilita o modo multiplayer do Campo-Minado."
+                },
+                {
+                    "imagem": "static/images/Projetos/Pessoais/ChatAPP.PNG",
+                    "nome": "ChatAPP",
+                    "link": "https://github.com/Rafael-Nunes-Silva/ChatAPP",
+                    "texto": "Esse projeto foi feito antes do desenvolvimento do servidor para o multiplayer do Campo-Minado para que eu pudesse aprender e práticar o networking em C#."
+                },
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Campo-Minado.PNG",
+                    "nome": "Campo-Minado",
+                    "link": "https://github.com/Rafael-Nunes-Silva/Campo-Minado",
+                    "texto": "Esse é um jogo de campo-minado feito com o intuito de práticar C#. Começou como um jogo básico, mas conforme idéias de como melhora-lo foram surgindo fui atualizando o projeto e agora conta até com um modo multiplayer."
+                },
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Criador-de-lista-de-tarefas.PNG",
+                    "nome": "Criador-de-lista-de-tarefas",
+                    "link": "https://github.com/Rafael-Nunes-Silva/Criador-de-lista-de-tarefas",
+                    "texto": "A ideia para esse projeto veio com as primeiras aulas de Python no curso de Desenvolvimento de Software Multiplataforma. Toda lista de exercícios passada pelo professor deveria ser entregue por email em um arquivo .txt que contivesse os códigos de cada exercicio, porem, abrir cada arquivo de exercicio para dar Ctrl+C e Ctrl+V dentro de um arquivo de texto era algo entediante e repetitivo, por isso fiz esse programa para automatizar essa etapa."
+                },
+                {
+                    "imagem": "static/images/Projetos/Pessoais/LinearEquationSolver.PNG",
+                    "nome": "Linear-Equation-Solver",
+                    "link": "https://github.com/Rafael-Nunes-Silva/Linear-Equation-Solver",
+                    "texto": "Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações."
+                }
+            ]
+        },
+        {
+            "periodo": "2022",
+            "projetos": [
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Hangman.PNG",
+                    "nome": "<a href='https://rafael-nunes-silva.github.io/Hangman-Website/'>Hangman</a>",
+                    "link": "https://github.com/Rafael-Nunes-Silva/Hangman-Website",
+                    "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/Cascading_Style_Sheets'>CSS</a> e <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site com o cabeçalho com o nome do site e um botão para mudar entre as linguagens português e inglês, o jogo da forca, um botão para riniciar o jogo e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
+                },
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Sudoku.PNG",
+                    "nome": "<a href='https://github.com/Rafael-Nunes-Silva/Sudoku-Website'>Sudoku",
+                    "link": "https://github.com/Rafael-Nunes-Silva/Sudoku-Website",
+                    "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, o jogo Sudoku no centro, um seletor de dificuldade, um botão para riniciar o jogo e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
+                },
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Tic-Tac-Toe.PNG",
+                    "nome": "<a href='https://github.com/Rafael-Nunes-Silva/Tic-Tac-Toe-Website'>Tic-Tac-Toe</a>",
+                    "link": "https://rafael-nunes-silva.github.io/Tic-Tac-Toe-Website/",
+                    "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, a tablea do jogo-da-velha no centro e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
+                }
+            ]
+        }
+    ]
+}

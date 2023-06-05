@@ -1,19 +1,21 @@
-window.onload = function () {
-    let projetos = document.getElementById("proj-academicos").children;
-    projetos[0].children[0].style.display = "block";
-    projetos[0].children[1].style.display = "none";
-    for(let i = 1; i < projetos.length; i++)
-        projetos[i].style.display = "none";
-    
-    projetos = document.getElementById("proj-pessoais").children;
-    projetos[0].children[0].style.display = "none";
-    projetos[0].children[1].style.display = "block";
-    for(let i=1; i < projetos.length; i++)
-        projetos[i].style.display = "flex";
-};
+var dropdown;
 
-document.getElementById("proj-academicos-btn").addEventListener("click", function() { AbreFecha(this, document.getElementById("proj-academicos").children); });
-document.getElementById("proj-pessoais-btn").addEventListener("click", function() { AbreFecha(this, document.getElementById("proj-pessoais").children); });
+window.onload = function () {
+    let dropdowns = document.getElementsByClassName("proj-dropdown");
+
+    for(let i = 0; i < dropdowns.length; i++){
+        dropdowns[i].addEventListener("click", function() {
+            AbreFecha(dropdowns[i].children[0], dropdowns[i].children);
+        });
+
+        dropdowns[i].children[0].children[0].style.display = (i == 0 ? "block" : "none");
+        dropdowns[i].children[0].children[1].style.display = (i == 0 ? "none" : "block");
+
+        for(let j = 1; j < dropdowns[i].children.length; j++){
+            dropdowns[i].children[j].style.display = (i == 0 ? "flex" : "none");
+        }
+    }
+};
 
 function AbreFecha(btn, projetos){
     for(let i = 0; i < 2; i++){
