@@ -39,6 +39,12 @@
             "periodo": "2022",
             "projetos": [
                 {
+                    "imagem": "static/images/Projetos/Pessoais/WebGL-Learning.PNG",
+                    "nome": "<a href='https://rafael-nunes-silva.github.io/WebGL-Learning/'>WebGL-Learning</a>",
+                    "link": "https://github.com/Rafael-Nunes-Silva/WebGL-Learning",
+                    "texto": "Esse foi um projeto que fiz para aprender e praticar <a href='https://www.khronos.org/webgl/wiki/Main_Page'>WebGL</a>. O projeto consiste em uma página principal com uma lista das demos que fiz usando WebGL, como um Quad piscando, um Quad rotando e um Cubo colorido girando."
+                },
+                {
                     "imagem": "static/images/Projetos/Pessoais/Hangman.PNG",
                     "nome": "<a href='https://rafael-nunes-silva.github.io/Hangman-Website/'>Hangman</a>",
                     "link": "https://github.com/Rafael-Nunes-Silva/Hangman-Website",

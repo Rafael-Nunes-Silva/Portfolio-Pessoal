@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def RenderIndex():
-    certificados = []
-    with open("./static/dados/certificados.json", encoding="utf-8") as certificadosFile:
-        certificados = json.loads(certificadosFile.read())["Certificados"]
-    return render_template("index.html", certificados = certificados)
+    # certificados = []
+    # with open("./static/dados/certificados.json", encoding="utf-8") as certificadosFile:
+    #     certificados = json.loads(certificadosFile.read())["Certificados"]
+    return render_template("index.html")#, certificados = certificados)
 
 # @app.route("/ExperienciasProfissionais")
 # def RenderExpProfissional():
