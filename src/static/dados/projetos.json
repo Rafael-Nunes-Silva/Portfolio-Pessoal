@@ -22,7 +22,7 @@
             "imagem": "static/images/Projetos/Academicos/Exercicios-Python-FATEC.PNG",
             "nome": "Exercicios-Python-FATEC",
             "link": "https://github.com/Rafael-Nunes-Silva/Exercicios-Python-FATEC",
-            "texto": "Esse é o repositório onde estão minhas soluções para as listas de exercícios das aulas de Python na FATEC."
+            "texto": "Esse é o repositório onde estão minhas soluções para as listas de exercícios das aulas de Python do primeiro semestre na FATEC."
         },
         {
             "imagem": "static/images/Projetos/Pessoais/TimeupTCC.PNG",
@@ -42,19 +42,19 @@
             "imagem": "static/images/Projetos/Pessoais/Campo-Minado-Server.PNG",
             "nome": "Campo-Minado-Server",
             "link": "https://github.com/Rafael-Nunes-Silva/Campo-Minado-Server",
-            "texto": "Esse é o servidor que possibilita o modo multiplayer do Campo-Minado."
+            "texto": "Esse é o servidor que possibilita o modo multiplayer do Campo-Minado. Ele é o responsavel por gerenciar os jogadores e as salas criadas por eles."
         },
         {
             "imagem": "static/images/Projetos/Pessoais/ChatAPP.PNG",
             "nome": "ChatAPP",
             "link": "https://github.com/Rafael-Nunes-Silva/ChatAPP",
-            "texto": "Esse projeto foi feito antes do desenvolvimento do servidor para o multiplayer do Campo-Minado para que eu pudesse aprender e práticar o networking em C#."
+            "texto": "Esse projeto foi feito antes do desenvolvimento do servidor para o multiplayer do Campo-Minado para que eu pudesse aprender e práticar o networking em C#. O projeto consiste em dois executáveis, o cliente e o servidor, os clientes conectam-se no servidor, e através dele mandam mensagens uns para os outros, o servidor também recebe e pode mandar mensagens."
         },
         {
             "imagem": "static/images/Projetos/Pessoais/Campo-Minado.PNG",
             "nome": "Campo-Minado",
             "link": "https://github.com/Rafael-Nunes-Silva/Campo-Minado",
-            "texto": "Esse é um jogo de campo-minado feito com o intuito de práticar C#. Começou como um jogo básico, mas conforme idéias de como melhora-lo foram surgindo fui atualizando o projeto e agora conta até com um modo multiplayer."
+            "texto": "Esse é um jogo de campo-minado feito com o intuito de práticar C#. Começou como um jogo de campo minado básico, mas conforme idéias foram surgindo fui atualizando o projeto, adicionei a opção de marcar celulas com bandeiras, destacar linhas e agora conta até com um modo multiplayer."
         },
         {
             "imagem": "static/images/Projetos/Pessoais/Criador-de-lista-de-tarefas.PNG",
@@ -66,7 +66,13 @@
             "imagem": "static/images/Projetos/Pessoais/LinearEquationSolver.PNG",
             "nome": "Linear-Equation-Solver",
             "link": "https://github.com/Rafael-Nunes-Silva/Linear-Equation-Solver",
-            "texto": "Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações."
+            "texto": "Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações simples."
+        },
+        {
+            "imagem": "static/images/Projetos/Pessoais/WebGL-Learning.PNG",
+            "nome": "<a href='https://rafael-nunes-silva.github.io/WebGL-Learning/'>WebGL-Learning</a>",
+            "link": "https://github.com/Rafael-Nunes-Silva/WebGL-Learning",
+            "texto": "Esse foi um projeto que fiz para aprender e praticar <a href='https://www.khronos.org/webgl/wiki/Main_Page'>WebGL</a>. O projeto consiste em uma página principal com uma lista das demos que fiz usando WebGL, como um Quad piscando, um Quad rotando e um Cubo colorido girando."
         },
         {
             "imagem": "static/images/Projetos/Pessoais/Hangman.PNG",
