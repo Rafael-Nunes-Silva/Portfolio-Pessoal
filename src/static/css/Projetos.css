@@ -1,4 +1,10 @@
-.proj-dropdown{
+@media only screen and (max-width: 360px){
+
+}
+
+
+
+/* .proj-dropdown{
     background-color: var(--cream);
 }
 .proj-dropdown-btn{
@@ -23,7 +29,7 @@
 
 
 .projeto{
-    /* display: flex; */
+    /* display: flex; *
 
     align-items: center;
     text-align: center;
@@ -40,7 +46,7 @@
 
 
 
-/* Mobile */
+/* Mobile *
 @media only screen and (min-width: 360px) {
     .projeto{
         flex-direction: column;
@@ -58,7 +64,7 @@
 
 
 
-/* Tablets */
+/* Tablets *
 @media only screen and (min-width: 960px) {
     .projeto{
         flex-direction: row;
@@ -70,7 +76,7 @@
 
 
 
-/* Desktop */
+/* Desktop *
 @media only screen and (min-width: 1280px) {
     .projeto{
         flex-direction: row;
@@ -78,4 +84,4 @@
     .projeto p{
         font-size: 24px;
     }
-}
+} */
