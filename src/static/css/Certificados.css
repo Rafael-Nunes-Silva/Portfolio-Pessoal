@@ -1,6 +1,5 @@
 .certRow{
     display: flex;
-    flex-direction: row;
 }
 
 body{
@@ -13,10 +12,9 @@ body{
     align-items: center;
     text-align: center;
     justify-content: space-between;
-
-    width: 50%;
-
-    padding: 30px;
+}
+.certificado div{
+    width: 100%;
 }
 .certificado img{
     width: 100%;
@@ -28,48 +26,67 @@ body{
     border-radius: 5px;
 }
 
-
-
-/* Mobile */
-@media only screen and (min-width: 360px) {
+/* Big Desktop */
+@media only screen and (min-width: 1922px){
     .certRow{
-        display: flex;
+        flex-direction: row;
+    }
+    
+    .certificado{
+        width: 50%;
+    
+        padding: 30px;
+    }
+    .certificado p{
+        padding: 10px;
+
+        font-size: 40px;
+    }
+}
+/* Small Desktop */
+@media only screen and (min-width: 770px) and (max-width: 1921px){
+    .certRow{
+        flex-direction: row;
+    }
+    
+    .certificado{
+        width: 50%;
+    
+        padding: 30px;
+    }
+    .certificado p{
+        padding: 5px;
+
+        font-size: 24px;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 362px) and (max-width: 769px){
+    .certRow{
+        flex-direction: row;
+    }
+    
+    .certificado{
+        width: 50%;
+    
+        padding: 20px;
+    }
+    .certificado p{
+        font-size: 18px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 361px){
+    .certRow{
         flex-direction: column;
     }
+    
     .certificado{
         width: 100%;
+    
+        padding: 30px;
     }
     .certificado p{
         font-size: 14px;
-    }
-}
-
-
-
-/* Tablets */
-@media only screen and (min-width: 960px) {
-    .certRow{
-        flex-direction: row;
-    }
-    .certificado{
-        width: 50%;
-    }
-    .certificado p{
-        font-size: 22px;
-    }
-}
-
-
-
-/* Desktop */
-@media only screen and (min-width: 1280px) {
-    .certRow{
-        flex-direction: row;
-    }
-    .certificado{
-        width: 50%;
-    }
-    .certificado p{
-        font-size: 24px;
     }
 }
