@@ -1,10 +1,4 @@
-@media only screen and (max-width: 360px){
-
-}
-
-
-
-/* .proj-dropdown{
+.proj-dropdown{
     background-color: var(--cream);
 }
 .proj-dropdown-btn{
@@ -18,21 +12,23 @@
 
     width: 100%;
     height: 50px;
-
-    font-size: 32px;
 }
 .proj-dropdown-btn img{
     width: 50px;
     height: 50px;
 }
 
-
-
 .projeto{
-    /* display: flex; *
-
     align-items: center;
     text-align: center;
+
+    flex-direction: row;
+}
+.projeto .col-6{
+    width: 100%;
+}
+.projeto .col-5{
+    width: 100%;
 }
 .projeto img{
     width: 100%;
@@ -44,10 +40,66 @@
     border-radius: 5px;
 }
 
+/* Big Desktop */
+@media only screen and (min-width: 1922px){
+    .proj-dropdown-btn{
+        height: 70px;
+    
+        font-size: 44px;
+    }
+    .proj-dropdown-btn img{
+        width: 70px;
+        height: 70px;
+    }
 
+    .projeto p{
+        font-size: 36px;
+    }
+}
+/* Small Desktop */
+@media only screen and (min-width: 770px) and (max-width: 1921px){
+    .proj-dropdown-btn{
+        height: 50px;
+    
+        font-size: 32px;
+    }
+    .proj-dropdown-btn img{
+        width: 50px;
+        height: 50px;
+    }
 
-/* Mobile *
-@media only screen and (min-width: 360px) {
+    .projeto p{
+        font-size: 28px;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 362px) and (max-width: 769px){
+    .proj-dropdown-btn{
+        height: 38px;
+    
+        font-size: 24px;
+    }
+    .proj-dropdown-btn img{
+        width: 38px;
+        height: 38px;
+    }
+
+    .projeto p{
+        font-size: 18px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 361px){
+    .proj-dropdown-btn{
+        height: 32px;
+    
+        font-size: 24px;
+    }
+    .proj-dropdown-btn img{
+        width: 32px;
+        height: 32px;
+    }
+
     .projeto{
         flex-direction: column;
     }
@@ -61,27 +113,3 @@
         font-size: 14px;
     }
 }
-
-
-
-/* Tablets *
-@media only screen and (min-width: 960px) {
-    .projeto{
-        flex-direction: row;
-    }
-    .projeto p{
-        font-size: 22px;
-    }
-}
-
-
-
-/* Desktop *
-@media only screen and (min-width: 1280px) {
-    .projeto{
-        flex-direction: row;
-    }
-    .projeto p{
-        font-size: 24px;
-    }
-} */
