@@ -5,10 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def RenderIndex():
-    # certificados = []
-    # with open("./static/dados/certificados.json", encoding="utf-8") as certificadosFile:
-    #     certificados = json.loads(certificadosFile.read())["Certificados"]
-    return render_template("index.html")#, certificados = certificados)
+    return render_template("index.html", title = "Quem sou")
 
 # @app.route("/ExperienciasProfissionais")
 # def RenderExpProfissional():
@@ -20,23 +17,23 @@ def RenderIndex():
 @app.route("/ProjetosAcademicos")
 def RenderProjetosAcademicos():
     projetos = LoadProjetos("./static/dados/projetosAcademicos.json")
-    return render_template("Projetos.html", periodos = projetos)
+    return render_template("Projetos.html", title = "Projetos Academicos", periodos = projetos)
 
 @app.route("/ProjetosPessoais")
 def RenderProjetosPessoais():
     projetos = LoadProjetos("./static/dados/projetosPessoais.json")
-    return render_template("Projetos.html", periodos = projetos)
+    return render_template("Projetos.html", title = "Projetos Pessoais", periodos = projetos)
 
 @app.route("/Hobbies")
 def RenderHobbies():
-    return render_template("Hobbies.html")
+    return render_template("Hobbies.html", title = "Hobbies")
 
 @app.route("/Certificados")
 def RenderCertificados():
     certificados = []
     with open("./static/dados/certificados.json", encoding="utf-8") as certificadosFile:
         certificados = json.loads(certificadosFile.read())["Certificados"]
-    return render_template("Certificados.html", certificados = certificados)
+    return render_template("Certificados.html", title = "Certificados", certificados = certificados)
 
 # @app.route("/Tecnologias")
 # def RenderTecnologias():

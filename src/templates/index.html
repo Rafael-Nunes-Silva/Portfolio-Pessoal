@@ -4,10 +4,6 @@
     <link rel="stylesheet" href="static/css/index.css">
 {% endblock %}
 
-{% block title %}
-    <title>Quem Sou</title>
-{% endblock %}
-
 {% block content %}
     <div id="sub-header" class="row">
         <div class="col-3"></div>
@@ -70,34 +66,4 @@
             </div>
             <div class="col-2"></div>
         </div>
-        <!-- {% autoescape false %}
-        {% for certificado in certificados %}
-        {% if loop.index % 2 == 0 %}
-            {% set cor = 'claro' %}
-        {% else %}
-            {% set cor = 'escuro' %}
-        {% endif %}
-        <div class="{{ cor }} formacao row">
-            {% if loop.index % 2 == 0 %}
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p>{{ certificado.texto }}</p>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <img src="{{ certificado.imagem }}" alt="{{ certificado.imagemAlt }}">
-            </div>
-            {% else %}
-            <div class="col-1"></div>
-            <div class="col-5">
-                <img src="{{ certificado.imagem }}" alt="{{ certificado.imagemAlt }}">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p>{{ certificado.texto }}</p>
-            </div>
-            {% endif %}
-        </div>
-        {% endfor %}
-    {% endautoescape %} -->
 {% endblock %}
