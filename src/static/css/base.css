@@ -46,90 +46,107 @@
 .claro p    { border: 1px solid var(--charcoal); }
 .claro img  { border: 1px solid var(--charcoal); }
 
+header{
+    background-color: var(--tan);
+
+    border-bottom: 1px solid var(--charcoal);
+
+    height: 100px;
+}
+header a{
+    margin: 2px;
+    padding: 3px;
+
+    background-color: var(--gold);
+
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    transition: .25s;
+}
+header a:hover{
+    background-color: var(--cream);
+
+    margin: 0px;
+    padding: 5px;
+
+    border: 1px solid black;
+}
+header .col-4{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-logo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    justify-content: space-around;
+    align-items: center;
+}
+#header-logo img{
+    border: 1px solid var(--charcoal);
+    border-radius: 5px;
+}
+
+body{
+    background-color: var(--cream);
+    max-width: 2560px;
+    margin: auto;
+}
+
+#content{
+    min-height: 100vh;
+}
+
+.divisor{
+    height: .1vw;
+}
+
+p a{
+    background-color: var(--gold);
+    color: var(--charcoal);
+
+    border-radius: 5px;
+
+    transition: .15s;
+}
+p a:hover{
+    background-color: var(--charcoal);
+    color: var(--gold);
+}
+
+footer{
+    background-color: var(--tan);
+}
+footer a{
+    font-size: 32px;
+}
+
 /* Desktop Big */
 @media only screen and (min-width: 1922px){
     header{
-        background-color: var(--tan);
-    
-        border-bottom: 1px solid var(--charcoal);
-    
         height: 150px;
     }
     header a{
-        margin: 2px;
-        padding: 3px;
-    
-        background-color: var(--gold);
-    
-        text-align: center;
-        text-decoration: none;
         font-size: 44px;
-    
-        border-radius: 5px;
-    
-        transition: .25s;
-    }
-    header a:hover{
-        background-color: var(--cream);
-    
-        margin: 0px;
-        padding: 5px;
-    
-        border: 1px solid black;
     }
     header .col-4{
-        display: flex;
-        height: 100%;
         flex-direction: row;
-        align-content: space-between;
-        justify-content: space-around;
-        align-items: center;
     }
     
-    #header-logo{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    
-        justify-content: space-around;
-        align-items: center;
-    
-        font-size: 20px;
-    }
     #header-logo img{
         width: 80px;
         height: 80px;
-    
-        border: 1px solid var(--charcoal);
-        border-radius: 5px;
     }
     
-    body{
-        background-color: var(--cream);
-        max-width: 2560px;
-        margin: auto;
-    }
-    
-    #content{
-        min-height: 100vh;
-    }
-    
-    p a{
-        background-color: var(--gold);
-        color: var(--charcoal);
-    
-        border-radius: 5px;
-    
-        transition: .15s;
-    }
-    p a:hover{
-        background-color: var(--charcoal);
-        color: var(--gold);
-    }
-    
-    footer{
-        background-color: var(--tan);
-    }
     footer a{
         font-size: 32px;
     }
@@ -144,256 +161,53 @@
         height: 120px;
     }
     header a{
-        margin: 2px;
-        padding: 3px;
-    
-        background-color: var(--gold);
-    
-        text-align: center;
-        text-decoration: none;
         font-size: 28px;
-    
-        border-radius: 5px;
-    
-        transition: .25s;
-    }
-    header a:hover{
-        background-color: var(--cream);
-    
-        margin: 0px;
-        padding: 5px;
-    
-        border: 1px solid black;
     }
     header .col-4{
-        display: flex;
-        height: 100%;
         flex-direction: row;
-        align-content: space-between;
-        justify-content: space-around;
-        align-items: center;
     }
     
-    #header-logo{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    
-        justify-content: space-around;
-        align-items: center;
-    
-        font-size: 20px;
-    }
     #header-logo img{
         width: 64px;
         height: 64px;
-    
-        border: 1px solid var(--charcoal);
-        border-radius: 5px;
     }
     
-    body{
-        background-color: var(--cream);
-        max-width: 2560px;
-        margin: auto;
-    }
-    
-    #content{
-        min-height: 100vh;
-    }
-    
-    p a{
-        background-color: var(--gold);
-        color: var(--charcoal);
-    
-        border-radius: 5px;
-    
-        transition: .15s;
-    }
-    p a:hover{
-        background-color: var(--charcoal);
-        color: var(--gold);
-    }
-    
-    footer{
-        background-color: var(--tan);
-    }
     footer a{
         font-size: 22px;
     }
 }
 /* Tablet */
 @media only screen and (min-width: 362px) and (max-width: 769px){
-    header{
-        background-color: var(--tan);
-    
-        border-bottom: 1px solid var(--charcoal);
-    
-        height: 100px;
-    }
     header a{
-        margin: 2px;
-        padding: 3px;
-    
-        background-color: var(--gold);
-    
-        text-align: center;
-        text-decoration: none;
         font-size: 20px;
-    
-        border-radius: 5px;
-    
-        transition: .25s;
-    }
-    header a:hover{
-        background-color: var(--cream);
-    
-        margin: 0px;
-        padding: 5px;
-    
-        border: 1px solid black;
     }
     header .col-4{
-        display: flex;
-        height: 100%;
         flex-direction: column;
-        align-content: space-between;
-        justify-content: space-around;
-        align-items: center;
     }
     
-    #header-logo{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    
-        justify-content: space-around;
-        align-items: center;
-    
-        font-size: 20px;
-    }
     #header-logo img{
         width: 64px;
         height: 64px;
-    
-        border: 1px solid var(--charcoal);
-        border-radius: 5px;
     }
     
-    body{
-        background-color: var(--cream);
-        max-width: 2560px;
-        margin: auto;
-    }
-    
-    #content{
-        min-height: 100vh;
-    }
-    
-    p a{
-        background-color: var(--gold);
-        color: var(--charcoal);
-    
-        border-radius: 5px;
-    
-        transition: .15s;
-    }
-    p a:hover{
-        background-color: var(--charcoal);
-        color: var(--gold);
-    }
-    
-    footer{
-        background-color: var(--tan);
-    }
     footer a{
         font-size: 14px;
     }
 }
 /* Mobile */
 @media only screen and (max-width: 361px){
-    header{
-        background-color: var(--tan);
-    
-        border-bottom: 1px solid var(--charcoal);
-    
-        height: 100px;
-    }
     header a{
-        margin: 2px;
-        padding: 3px;
-    
-        background-color: var(--gold);
-    
-        text-align: center;
-        text-decoration: none;
         font-size: 16px;
-    
-        border-radius: 5px;
-    
-        transition: .25s;
-    }
-    header a:hover{
-        background-color: var(--cream);
-    
-        margin: 0px;
-        padding: 5px;
-    
-        border: 1px solid black;
     }
     header .col-4{
-        display: flex;
-        height: 100%;
         flex-direction: column;
-        align-content: space-between;
-        justify-content: space-between;
-        align-items: center;
     }
     
-    #header-logo{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    
-        justify-content: space-around;
-        align-items: center;
-    
-        font-size: 20px;
-    }
     #header-logo img{
         width: 64px;
         height: 64px;
-    
-        border: 1px solid var(--charcoal);
-        border-radius: 5px;
     }
     
-    body{
-        background-color: var(--cream);
-        max-width: 2560px;
-        margin: auto;
-    }
-    
-    #content{
-        min-height: 100vh;
-    }
-    
-    p a{
-        background-color: var(--gold);
-        color: var(--charcoal);
-    
-        border-radius: 5px;
-    
-        transition: .15s;
-    }
-    p a:hover{
-        background-color: var(--charcoal);
-        color: var(--gold);
-    }
-    
-    footer{
-        background-color: var(--tan);
-    }
     footer a{
         font-size: 12px;
     }
