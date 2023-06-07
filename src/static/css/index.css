@@ -1,8 +1,131 @@
-/* Desktop Big */
-@media only screen and (min-width: 1922px) and (max-width: 2561){
+/* Big Desktop */
+@media only screen and (min-width: 1922px){
+    #sub-header {
+        background-color: var(--gold);
     
+        border-bottom: 1px solid var(--charcoal);
+    
+        text-align: center;
+    }
+    #sub-header a{
+        margin: 2px;
+        padding: 2px;
+    
+        background-color: var(--tan);
+    
+        text-decoration: none;
+        font-size: 32px;
+    
+        border-radius: 5px;
+    
+        transition: .25s;
+    }
+    #sub-header a:hover{
+        background-color: var(--cream);
+    
+        margin: 0px;
+        padding: 4px;
+    
+        border: 1px solid black;
+    }
+    
+    #quem-sou{
+        display: flex;
+        flex-wrap: wrap;    
+        align-items: center;
+    }
+    #quem-sou .col-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #quem-sou .col-7{
+        width: 100%;
+    }
+    #quem-sou img{
+        width: 80%;
+    
+        filter: saturate(1.5) contrast(1.1) brightness(1.25);
+    
+        border: 5px solid var(--charcoal);
+        border-radius: 100%;
+    }
+    #quem-sou p{
+        background-color: var(--gold);
+    
+        padding: 15px;
+        border: 1px solid var(--charcoal);
+        border-radius: 5px;
+    
+        font-size: 44px;
+    }
+    
+    #info{
+        background-color: var(--charcoal);
+        font-size: 40px;
+    }
+    #info p{
+        color: var(--gold);
+    }
+    
+    #redes .col-6{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    
+        border: 1px solid var(--charcoal);
+    }
+    #redes a{
+        background-color: var(--cream);
+        color: var(--charcoal);
+    
+        border-radius: 5px;
+
+        font-size: 44px;
+    
+        transition: .15s;
+    }
+    #redes a:hover{
+        background-color: var(--charcoal);
+        color: var(--gold);
+    }
+    #redes img{
+        margin-right: 10px;
+
+        width: 50px;
+        height: 50px;
+    }
+    
+    #formacoes-titulo .col-12{
+        background-color: var(--tan);
+        text-align: center;
+    
+        font-size: 36px;
+    }
+    
+    .formacao{
+        display: flex;
+    
+        align-items: center;
+        text-align: center;
+    
+        margin: 40px 0px;
+    }
+    .formacao h1{
+        font-size: 60px;
+    }
+    .formacao p{
+        background-color: var(--gold);
+    
+        padding: 20px;
+        border-radius: 5px;
+
+        font-size: 40px;
+    }
 }
-/* Desktop Small */
+/* Small Desktop */
 @media only screen and (min-width: 770px) and (max-width: 1921px){
     #sub-header {
         background-color: var(--gold);
@@ -37,8 +160,6 @@
         display: flex;
         flex-wrap: wrap;    
         align-items: center;
-
-        font-size: 18px;
     }
     #quem-sou .col-5{
         display: flex;
@@ -166,8 +287,6 @@
         display: flex;
         flex-wrap: wrap;    
         align-items: center;
-
-        font-size: 18px;
     }
     #quem-sou .col-5{
         display: flex;
@@ -295,8 +414,6 @@
         display: flex;
         flex-wrap: wrap;    
         align-items: center;
-
-        font-size: 18px;
     }
     #quem-sou .col-5{
         display: flex;
