@@ -1,3 +1,7 @@
+header{
+    border-bottom: .1vh solid var(--cream);
+}
+
 .certRow{
     display: flex;
 }
