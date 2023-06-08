@@ -232,6 +232,9 @@
         font-size: 14px;
     }
     
+    #quem-sou{
+        flex-direction: column;
+    }
     #quem-sou .col-5{
         width: 100%;
     }
@@ -239,6 +242,7 @@
         width: 80%;
     }
     #quem-sou p{
+        width: 90%;
         font-size: 14px;
     }
     
