@@ -152,7 +152,7 @@ footer a{
     }
 }
 /* Desktop Small */
-@media only screen and (min-width: 770px) and (max-width: 1921px){
+@media only screen and (min-width: 1026px) and (max-width: 1921px){
     header{
         background-color: var(--tan);
     
@@ -177,7 +177,7 @@ footer a{
     }
 }
 /* Tablet */
-@media only screen and (min-width: 362px) and (max-width: 769px){
+@media only screen and (min-width: 427px) and (max-width: 1025px){
     header a{
         font-size: 20px;
     }
@@ -195,7 +195,7 @@ footer a{
     }
 }
 /* Mobile */
-@media only screen and (max-width: 361px){
+@media only screen and (max-width: 426px){
     header a{
         font-size: 16px;
     }

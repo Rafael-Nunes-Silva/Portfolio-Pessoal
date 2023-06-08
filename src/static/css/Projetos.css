@@ -58,7 +58,7 @@
     }
 }
 /* Small Desktop */
-@media only screen and (min-width: 770px) and (max-width: 1921px){
+@media only screen and (min-width: 1026px) and (max-width: 1921px){
     .proj-dropdown-btn{
         height: 50px;
     
@@ -74,7 +74,7 @@
     }
 }
 /* Tablet */
-@media only screen and (min-width: 362px) and (max-width: 769px){
+@media only screen and (min-width: 427px) and (max-width: 1025px){
     .proj-dropdown-btn{
         height: 38px;
     
@@ -90,7 +90,7 @@
     }
 }
 /* Mobile */
-@media only screen and (max-width: 361px){
+@media only screen and (max-width: 426px){
     .proj-dropdown-btn{
         height: 32px;
     

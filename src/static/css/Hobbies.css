@@ -35,7 +35,7 @@ header{
     }
 }
 /* Small Desktop */
-@media only screen and (min-width: 770px) and (max-width: 1921px){
+@media only screen and (min-width: 1026px) and (max-width: 1921px){
     .hobbie{
         flex-direction: row;
     }
@@ -44,7 +44,7 @@ header{
     }
 }
 /* Tablet */
-@media only screen and (min-width: 362px) and (max-width: 769px){
+@media only screen and (min-width: 427px) and (max-width: 1025px){
     .hobbie{
         flex-direction: row;
     }
@@ -53,7 +53,7 @@ header{
     }
 }
 /* Mobile */
-@media only screen and (max-width: 361px){
+@media only screen and (max-width: 426px){
     .hobbie{
         flex-direction: column;
     }
