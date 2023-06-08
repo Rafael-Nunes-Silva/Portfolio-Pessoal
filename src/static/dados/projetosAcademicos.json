@@ -4,25 +4,31 @@
             "periodo": "1° Sem 2023",
             "projetos": [
                 {
-                    "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio3.PNG",
+                    "imagem": "static/images/Projetos/Academicos/Cicovale.png",
+                    "nome": "Cicovale",
+                    "link": "https://github.com/equipedevo/API_1",
+                    "texto": "Esse foi o API do primeiro semestre de DSM na FATEC."
+                },
+                {
+                    "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio3.png",
                     "nome": "DevWeb-Desafio3",
                     "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio3",
                     "texto": "Esse foi o terceiro trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, nele eu tive que adicionar uma conexão com um banco de dados ao 'DevWeb-Desafio2'."
                 },
                 {
-                    "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio2.PNG",
+                    "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio2.png",
                     "nome": "DevWeb-Desafio2",
                     "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio2",
                     "texto": "Esse foi o segundo trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, o intuito era levar o site do 'DevWeb-Desafio1' para um ambiente virtual com Flask."
                 },
                 {
-                    "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio1.PNG",
+                    "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio1.png",
                     "nome": "DevWeb-Desafio1",
                     "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio1",
                     "texto": "Esse foi o primeiro trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, se trata de um site com 3 páginas para uma universidade fictícia 'UNES'."
                 },
                 {
-                    "imagem": "static/images/Projetos/Academicos/Exercicios-Python-FATEC.PNG",
+                    "imagem": "static/images/Projetos/Academicos/Exercicios-Python-FATEC.png",
                     "nome": "Exercicios-Python-FATEC",
                     "link": "https://github.com/Rafael-Nunes-Silva/Exercicios-Python-FATEC",
                     "texto": "Esse é o repositório onde estão minhas soluções para as listas de exercícios das aulas de Python na FATEC."
@@ -33,7 +39,7 @@
             "periodo": "2022",
             "projetos": [
                 {
-                    "imagem": "static/images/Projetos/Pessoais/TimeupTCC.PNG",
+                    "imagem": "static/images/Projetos/Pessoais/TimeupTCC.png",
                     "nome": "<a href='https://tcctimeup.000webhostapp.com'>TimeUp</a>",
                     "link": "https://github.com/Rafael-Nunes-Silva/TCC-Timeup/",
                     "texto": "Esse foi o projeto de TCC do curso técnico em Desenvolvimento de Sistemas que fiz junto ao ensino médio. O projeto é um site que gera orçamentos de materiais de construção civil, as empresas se cadastrariam no site e colocariam seus produtos(contendo informações como tamanho, tipo, valor etc) a disposição no site e os usuários comuns poderiam se cadastrar e, utilizando o buscador de produtos do site, criar e salvar seus orçamentos."
@@ -44,7 +50,7 @@
             "periodo": "2021",
             "projetos": [
                 {
-                    "imagem": "static/images/Projetos/Academicos/ETEC_DS_CSharp_ConsoleApp.PNG",
+                    "imagem": "static/images/Projetos/Academicos/ETEC_DS_CSharp_ConsoleApp.png",
                     "nome": "ETEC_DS_CSharp_ConsoleApp",
                     "link": "https://github.com/Rafael-Nunes-Silva/ETEC_DS_CSharp_ConsoleApp",
                     "texto": "Esse é um aplicativo de console que possui as resoluções de todos os exercícios das aulas de C# do técnico em Desenvolvimento de Sistemas."

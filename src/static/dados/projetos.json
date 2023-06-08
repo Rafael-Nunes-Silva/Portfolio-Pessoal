@@ -1,37 +1,37 @@
 {
     "ProjetosAcademicos": [
         {
-            "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio3.PNG",
+            "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio3.png",
             "nome": "DevWeb-Desafio3",
             "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio3",
             "texto": "Esse foi o terceiro trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, nele eu tive que adicionar uma conexão com um banco de dados ao 'DevWeb-Desafio2'."
         },
         {
-            "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio2.PNG",
+            "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio2.png",
             "nome": "DevWeb-Desafio2",
             "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio2",
             "texto": "Esse foi o segundo trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, o intuito era levar o site do 'DevWeb-Desafio1' para um ambiente virtual com Flask."
         },
         {
-            "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio1.PNG",
+            "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio1.png",
             "nome": "DevWeb-Desafio1",
             "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio1",
             "texto": "Esse foi o primeiro trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, se trata de um site com 3 páginas para uma universidade fictícia 'UNES'."
         },
         {
-            "imagem": "static/images/Projetos/Academicos/Exercicios-Python-FATEC.PNG",
+            "imagem": "static/images/Projetos/Academicos/Exercicios-Python-FATEC.png",
             "nome": "Exercicios-Python-FATEC",
             "link": "https://github.com/Rafael-Nunes-Silva/Exercicios-Python-FATEC",
             "texto": "Esse é o repositório onde estão minhas soluções para as listas de exercícios das aulas de Python do primeiro semestre na FATEC."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/TimeupTCC.PNG",
+            "imagem": "static/images/Projetos/Pessoais/TimeupTCC.png",
             "nome": "<a href='https://tcctimeup.000webhostapp.com'>TimeUp</a>",
             "link": "https://github.com/Rafael-Nunes-Silva/TCC-Timeup/",
             "texto": "Esse foi o projeto de TCC do curso técnico em Desenvolvimento de Sistemas que fiz junto ao ensino médio. O projeto é um site que gera orçamentos de materiais de construção civil, as empresas se cadastrariam no site e colocariam seus produtos(contendo informações como tamanho, tipo, valor etc) a disposição no site e os usuários comuns poderiam se cadastrar e, utilizando o buscador de produtos do site, criar e salvar seus orçamentos."
         },
         {
-            "imagem": "static/images/Projetos/Academicos/ETEC_DS_CSharp_ConsoleApp.PNG",
+            "imagem": "static/images/Projetos/Academicos/ETEC_DS_CSharp_ConsoleApp.png",
             "nome": "ETEC_DS_CSharp_ConsoleApp",
             "link": "https://github.com/Rafael-Nunes-Silva/ETEC_DS_CSharp_ConsoleApp",
             "texto": "Esse é um aplicativo de console que possui as resoluções de todos os exercícios das aulas de C# do técnico em Desenvolvimento de Sistemas."
@@ -39,55 +39,55 @@
     ],
     "ProjetosPessoais": [
         {
-            "imagem": "static/images/Projetos/Pessoais/Campo-Minado-Server.PNG",
+            "imagem": "static/images/Projetos/Pessoais/Campo-Minado-Server.png",
             "nome": "Campo-Minado-Server",
             "link": "https://github.com/Rafael-Nunes-Silva/Campo-Minado-Server",
             "texto": "Esse é o servidor que possibilita o modo multiplayer do Campo-Minado. Ele é o responsavel por gerenciar os jogadores e as salas criadas por eles."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/ChatAPP.PNG",
+            "imagem": "static/images/Projetos/Pessoais/ChatAPP.png",
             "nome": "ChatAPP",
             "link": "https://github.com/Rafael-Nunes-Silva/ChatAPP",
             "texto": "Esse projeto foi feito antes do desenvolvimento do servidor para o multiplayer do Campo-Minado para que eu pudesse aprender e práticar o networking em C#. O projeto consiste em dois executáveis, o cliente e o servidor, os clientes conectam-se no servidor, e através dele mandam mensagens uns para os outros, o servidor também recebe e pode mandar mensagens."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/Campo-Minado.PNG",
+            "imagem": "static/images/Projetos/Pessoais/Campo-Minado.png",
             "nome": "Campo-Minado",
             "link": "https://github.com/Rafael-Nunes-Silva/Campo-Minado",
             "texto": "Esse é um jogo de campo-minado feito com o intuito de práticar C#. Começou como um jogo de campo minado básico, mas conforme idéias foram surgindo fui atualizando o projeto, adicionei a opção de marcar celulas com bandeiras, destacar linhas e agora conta até com um modo multiplayer."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/Criador-de-lista-de-tarefas.PNG",
+            "imagem": "static/images/Projetos/Pessoais/Criador-de-lista-de-tarefas.png",
             "nome": "Criador-de-lista-de-tarefas",
             "link": "https://github.com/Rafael-Nunes-Silva/Criador-de-lista-de-tarefas",
             "texto": "A ideia para esse projeto veio com as primeiras aulas de Python no curso de Desenvolvimento de Software Multiplataforma. Toda lista de exercícios passada pelo professor deveria ser entregue por email em um arquivo .txt que contivesse os códigos de cada exercicio, porem, abrir cada arquivo de exercicio para dar Ctrl+C e Ctrl+V dentro de um arquivo de texto era algo entediante e repetitivo, por isso fiz esse programa para automatizar essa etapa."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/LinearEquationSolver.PNG",
+            "imagem": "static/images/Projetos/Pessoais/LinearEquationSolver.png",
             "nome": "Linear-Equation-Solver",
             "link": "https://github.com/Rafael-Nunes-Silva/Linear-Equation-Solver",
             "texto": "Esse foi um projeto que nasceu como um desafio entre amigos, o desafio era criar um programa na linguagem que você escolhece que fosse capaz de resolver equações simples."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/WebGL-Learning.PNG",
+            "imagem": "static/images/Projetos/Pessoais/WebGL-Learning.png",
             "nome": "<a href='https://rafael-nunes-silva.github.io/WebGL-Learning/'>WebGL-Learning</a>",
             "link": "https://github.com/Rafael-Nunes-Silva/WebGL-Learning",
             "texto": "Esse foi um projeto que fiz para aprender e praticar <a href='https://www.khronos.org/webgl/wiki/Main_Page'>WebGL</a>. O projeto consiste em uma página principal com uma lista das demos que fiz usando WebGL, como um Quad piscando, um Quad rotando e um Cubo colorido girando."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/Hangman.PNG",
+            "imagem": "static/images/Projetos/Pessoais/Hangman.png",
             "nome": "<a href='https://rafael-nunes-silva.github.io/Hangman-Website/'>Hangman</a>",
             "link": "https://github.com/Rafael-Nunes-Silva/Hangman-Website",
             "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/Cascading_Style_Sheets'>CSS</a> e <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site com o cabeçalho com o nome do site e um botão para mudar entre as linguagens português e inglês, o jogo da forca, um botão para riniciar o jogo e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/Sudoku.PNG",
+            "imagem": "static/images/Projetos/Pessoais/Sudoku.png",
             "nome": "<a href='https://github.com/Rafael-Nunes-Silva/Sudoku-Website'>Sudoku",
             "link": "https://github.com/Rafael-Nunes-Silva/Sudoku-Website",
             "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, o jogo Sudoku no centro, um seletor de dificuldade, um botão para riniciar o jogo e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
         },
         {
-            "imagem": "static/images/Projetos/Pessoais/Tic-Tac-Toe.PNG",
+            "imagem": "static/images/Projetos/Pessoais/Tic-Tac-Toe.png",
             "nome": "<a href='https://github.com/Rafael-Nunes-Silva/Tic-Tac-Toe-Website'>Tic-Tac-Toe</a>",
             "link": "https://rafael-nunes-silva.github.io/Tic-Tac-Toe-Website/",
             "texto": "Esse foi um projeto que fiz para praticar principalmente <a href='https://pt.wikipedia.org/wiki/JavaScript'>JavaScript</a>. O projeto consiste em um site de aparência simples que conta com o cabeçalho com o nome do site, a tablea do jogo-da-velha no centro e o footer com um link para o <abbr title='Rafael-Nunes-Silva'><a href='https://github.com/Rafael-Nunes-Silva'>meu perfil no Github</a></abbr>."
