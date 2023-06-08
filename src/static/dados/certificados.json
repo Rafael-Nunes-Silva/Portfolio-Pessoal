@@ -2,22 +2,22 @@
     "Certificados": [
         {
             "texto": "Diploma do Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio na <abbr title='ETEC Professora Ilza Nascimento Pintus'><a href='http://www.etecsjcampos.com.br'>ETEC</a></abbr>.",
-            "imagem": "static/images/Certificados/Diploma Desenvolvimento de Sistemas Integrado ao Ensino Medio.jpg",
+            "imagem": "static/images/Certificados/Diploma_Desenvolvimento_de_Sistemas_Integrado_ao_Ensino_Medio.jpg",
             "imagemAlt": "Ensino Médio: Desenvolvimento de Sistemas"
         },
         {
             "texto": "Curso na linguagem C++. Feito na <a href='https://cursos.alura.com.br/degree/certificate/99a4a495-9319-45d2-b3c8-fbfe615dc16b'>Alura</a>.",
-            "imagem": "static/images/Certificados/Certificado C++ - Alura.png",
+            "imagem": "static/images/Certificados/Certificado_CPP-Alura.png",
             "imagemAlt": "Alura: Curso C++"
         },
         {
             "texto": "Curso de estatística em Python. Feito na <a href='https://cursos.alura.com.br/degree/certificate/c1b96ff4-11f2-4081-85ed-1efb666ae919'>Alura</a>.",
-            "imagem": "static/images/Certificados/Certificado Estatistica com Python - Alura.png",
+            "imagem": "static/images/Certificados/Certificado_Estatistica_com_Python-Alura.png",
             "imagemAlt": "Alura: Estatistica com Python"
         },
         {
             "texto": "Curso na linguagem Python. Feito na <a href='https://cursos.alura.com.br/degree/certificate/113c836f-aafe-474d-b0ac-7fce33c74151'>Alura</a>.",
-            "imagem": "static/images/Certificados/Certificado Python - Alura.png",
+            "imagem": "static/images/Certificados/Certificado_Python-Alura.png",
             "imagemAlt": "Alura: Python"
         }
     ]
