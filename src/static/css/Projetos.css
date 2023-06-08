@@ -1,5 +1,6 @@
 .proj-dropdown{
     background-color: var(--cream);
+    border-bottom: .1vh solid var(--charcoal);
 }
 .proj-dropdown-btn{
     background-color: var(--gold);

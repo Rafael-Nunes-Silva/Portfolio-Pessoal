@@ -4,7 +4,7 @@ window.onload = function () {
     let dropdowns = document.getElementsByClassName("proj-dropdown");
 
     for(let i = 0; i < dropdowns.length; i++){
-        dropdowns[i].addEventListener("click", function() {
+        dropdowns[i].children[0].addEventListener("click", function() {
             AbreFecha(dropdowns[i].children[0], dropdowns[i].children);
         });
 
