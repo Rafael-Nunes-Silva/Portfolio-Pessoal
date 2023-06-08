@@ -10,18 +10,18 @@ def RenderIndex():
 # @app.route("/ExperienciasProfissionais")
 # def RenderExpProfissional():
 #     experiencias = []
-#     with open("./static/dados/expProffisional.json", encoding="utf-8") as expFile:
+#     with open("./src/static/dados/expProffisional.json", encoding="utf-8") as expFile:
 #         experiencias = json.loads(expFile.read())["Experiencias"]
 #     return render_template("ExpProfissional.html", experiencias = experiencias)
 
 @app.route("/ProjetosAcademicos")
 def RenderProjetosAcademicos():
-    projetos = LoadProjetos("./static/dados/projetosAcademicos.json")
+    projetos = LoadProjetos("./src/static/dados/projetosAcademicos.json")
     return render_template("Projetos.html", title = "Projetos Academicos", periodos = projetos)
 
 @app.route("/ProjetosPessoais")
 def RenderProjetosPessoais():
-    projetos = LoadProjetos("./static/dados/projetosPessoais.json")
+    projetos = LoadProjetos("./src/static/dados/projetosPessoais.json")
     return render_template("Projetos.html", title = "Projetos Pessoais", periodos = projetos)
 
 @app.route("/Hobbies")
@@ -31,22 +31,22 @@ def RenderHobbies():
 @app.route("/Certificados")
 def RenderCertificados():
     certificados = []
-    with open("./static/dados/certificados.json", encoding="utf-8") as certificadosFile:
+    with open("./src/static/dados/certificados.json", "r", encoding="utf-8") as certificadosFile:
         certificados = json.loads(certificadosFile.read())["Certificados"]
     return render_template("Certificados.html", title = "Certificados", certificados = certificados)
 
 # @app.route("/Tecnologias")
 # def RenderTecnologias():
 #     tecnologias = []
-#     with open("./static/dados/tecnologias.json", encoding="utf-8") as tecnologiasFile:
+#     with open("./src/static/dados/tecnologias.json", encoding="utf-8") as tecnologiasFile:
 #         tecnologias = json.loads(tecnologiasFile.read())["Tecnologias"]
 
 #     return render_template("Tecnologias.html", tecnologias = tecnologias)
 
 def LoadProjetos(projetos):
-    with open(projetos, encoding="utf-8") as projetosFile:
+    with open(projetos, "r", encoding="utf-8") as projetosFile:
         fileContent = projetosFile.read()
         return json.loads(fileContent)["Periodos"]
 
 if __name__ == '__main__':
-    app.run(host = "0.0.0.0", port = "5000", debug = False)
+    app.run(host = "0.0.0.0", port = "5000", debug = True)
