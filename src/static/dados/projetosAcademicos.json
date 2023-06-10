@@ -13,19 +13,19 @@
                     "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio3.png",
                     "nome": "DevWeb-Desafio3",
                     "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio3",
-                    "texto": "Esse foi o terceiro trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, nele eu tive que adicionar uma conexão com um banco de dados ao 'DevWeb-Desafio2'."
+                    "texto": "Esse foi o terceiro trabalho da matéria de Desenvolvimento Web do primeiro semestre na FATEC, nele eu tive que adicionar uma conexão com um banco de dados ao 'DevWeb-Desafio2'."
                 },
                 {
                     "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio2.png",
                     "nome": "DevWeb-Desafio2",
                     "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio2",
-                    "texto": "Esse foi o segundo trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, o intuito era levar o site do 'DevWeb-Desafio1' para um ambiente virtual com Flask."
+                    "texto": "Esse foi o segundo trabalho da matéria de Desenvolvimento Web do primeiro semestre na FATEC, o intuito era levar o site do 'DevWeb-Desafio1' para um ambiente virtual com Flask."
                 },
                 {
                     "imagem": "static/images/Projetos/Academicos/DevWeb-Desafio1.png",
                     "nome": "DevWeb-Desafio1",
                     "link": "https://github.com/Rafael-Nunes-Silva/DevWeb-Desafio1",
-                    "texto": "Esse foi o primeiro trabalho da materia de Desenvolvimento Web do primeiro semestre na FATEC, se trata de um site com 3 páginas para uma universidade fictícia 'UNES'."
+                    "texto": "Esse foi o primeiro trabalho da matéria de Desenvolvimento Web do primeiro semestre na FATEC, se trata de um site com 3 páginas para uma universidade fictícia 'UNES'."
                 },
                 {
                     "imagem": "static/images/Projetos/Academicos/Exercicios-Python-FATEC.png",
