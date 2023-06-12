@@ -203,7 +203,7 @@
     }
     
     #redes .col-6{
-        flex-direction: column;
+        flex-direction: row;
     }
     #redes a{
         font-size: 18px;
