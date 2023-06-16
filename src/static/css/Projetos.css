@@ -12,6 +12,8 @@
     width: 100%;
 }
 .proj-dropdown-btn span{
+    background-color: var(--tan);
+
     display: flex;
     align-items: center;
     cursor: pointer;
