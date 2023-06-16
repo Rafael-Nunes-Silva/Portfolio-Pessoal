@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-5">
-                    <p>{{ projeto.nome }} | <a href="{{ projeto.link }}" target="_blank">Projeto</a><br><br>{{ projeto.texto }}</p>
+                    <p>{{ projeto.nome }} | <a target="_blank" href="{{ projeto.link }}">Projeto</a><br><br>{{ projeto.texto }}</p>
                 </div>
             </div>
             {% if not loop.last %}
