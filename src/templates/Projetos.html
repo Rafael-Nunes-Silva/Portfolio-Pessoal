@@ -12,7 +12,7 @@
     {% autoescape false %}
     {% for periodo in periodos %}
     <div class="proj-dropdown">
-        <button class="proj-dropdown-btn"><img src="static/images/Projetos/Open-Dropdown.svg"><img src="static/images/Projetos/Closed-Dropdown.svg">{{ periodo.periodo }}</button>
+        <button class="proj-dropdown-btn"><span><img src="static/images/Projetos/Open-Dropdown.svg"><img src="static/images/Projetos/Closed-Dropdown.svg">{{ periodo.periodo }}</span></button>
         {% for projeto in periodo.projetos %}
             <div class="escuro projeto row">
                 <div class="col-6">
