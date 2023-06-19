@@ -12,6 +12,8 @@
     width: 100%;
 }
 .proj-dropdown-btn span{
+    background-color: var(--tan);
+
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -32,7 +34,6 @@
 
 .projeto{
     align-items: center;
-    text-align: center;
 
     flex-direction: row;
 }
@@ -41,15 +42,27 @@
 }
 .projeto .col-5{
     width: 100%;
+
+    background-color: var(--gold);
+
+    margin: 1%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.1vh solid var(--cream);
 }
 .projeto img{
     width: 100%;
 }
 .projeto p{
-    background-color: var(--gold);
+    border: 0;
 
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0px 15px;
+}
+.projeto .proj-titulo{
+    text-align: center;
+}
+.projeto .proj-texto{
+    text-align: left;
 }
 
 /* Big Desktop */
@@ -123,5 +136,6 @@
     }
     .projeto p{
         font-size: 14px;
+        padding: 0px 5px;
     }
 }
