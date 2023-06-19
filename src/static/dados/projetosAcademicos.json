@@ -5,7 +5,7 @@
             "projetos": [
                 {
                     "imagem": "static/images/Projetos/Academicos/Cicovale.png",
-                    "nome": "Cicovale",
+                    "nome": "<a target='_blank' href='https://cicovale-api.vercel.app/'>Cicovale</a>",
                     "link": "https://github.com/equipedevo/API_1",
                     "texto": "Esse foi o API do primeiro semestre de DSM na FATEC."
                 },
@@ -40,7 +40,7 @@
             "projetos": [
                 {
                     "imagem": "static/images/Projetos/Pessoais/TimeupTCC.png",
-                    "nome": "<a href='https://tcctimeup.000webhostapp.com'>TimeUp</a>",
+                    "nome": "<a target='_blank' href='https://tcctimeup.000webhostapp.com'>TimeUp</a>",
                     "link": "https://github.com/Rafael-Nunes-Silva/TCC-Timeup/",
                     "texto": "Esse foi o projeto de TCC do curso técnico em Desenvolvimento de Sistemas que fiz junto ao ensino médio. O projeto é um site que gera orçamentos de materiais de construção civil, as empresas se cadastrariam no site e colocariam seus produtos(contendo informações como tamanho, tipo, valor etc) a disposição no site e os usuários comuns poderiam se cadastrar e, utilizando o buscador de produtos do site, criar e salvar seus orçamentos."
                 }
