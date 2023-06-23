@@ -1,0 +1,16 @@
+{
+    "Hobbies": [
+        {
+            "imagem": "static/images/Hobbies/gaming.png",
+            "texto": "Também sempre gostei de jogar diversos jogos, já joguei muito as versões antigas do <a href='https://store.steampowered.com/app/252490/Rust/' target='_blank'>Rust</a>, também me aventurei no <a href='https://store.steampowered.com/app/690790/DiRT_Rally_20/' target='_blank'>Rally</a> e atualmente estou jogando mais <a href='https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/' target='_blank'>CS</a> e <a href='https://store.steampowered.com/app/594650/Hunt_Showdown/' target='_blank'>Hunt</a>."
+        },
+        {
+            "imagem": "static/images/Hobbies/music.png",
+            "texto": "Gosto bastante de ouvir música, 90% do tempo que não estou em aula, vendo um vídeo ou jogando, estou ouvindo música, gosto de vários estilos musicais, do rap ao metal, a combinação dos dois e uns generos menos convencionais com bastante gritaria."
+        },
+        {
+            "imagem": "static/images/Hobbies/programming.png",
+            "texto": "Programar, além de tudo é um dos meus hobbies, alguns dos meus projetos feitos por hobbie são: <a href='https://github.com/Rafael-Nunes-Silva/Tic-Tac-Toe-Website' target='_blank'>Tic-Tac-Toe-Website</a> | <a href='https://github.com/Rafael-Nunes-Silva/Sudoku-Website' target='_blank'>Sudoku-Website</a> | <a href='https://github.com/Rafael-Nunes-Silva/Hangman-Website' target='_blank'>Hangman-Website</a> | <a href='https://github.com/Rafael-Nunes-Silva/Linear-Equation-Solver' target='_blank'>Linear-Equation-Solver</a> | <a href='https://github.com/Rafael-Nunes-Silva/Criador-de-lista-de-tarefas' target='_blank'>Criador-de-lista-de-tarefas</a>."
+        }
+    ]
+}

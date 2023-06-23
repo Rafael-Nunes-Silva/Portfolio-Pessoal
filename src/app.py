@@ -26,7 +26,10 @@ def RenderProjetosPessoais():
 
 @app.route("/Hobbies")
 def RenderHobbies():
-    return render_template("Hobbies.html", title = "Hobbies")
+    hobbies = []
+    with open("./src/static/dados/hobbies.json", "r", encoding="utf-8") as hobbiesFile:
+        hobbies = json.loads(hobbiesFile.read())["Hobbies"]
+    return render_template("Hobbies.html", title = "Hobbies", hobbies = hobbies)
 
 @app.route("/Certificados")
 def RenderCertificados():
@@ -49,4 +52,4 @@ def LoadProjetos(projetos):
         return json.loads(fileContent)["Periodos"]
 
 if __name__ == '__main__':
-    app.run(host = "0.0.0.0", port = "5000", debug = False)
+    app.run(host = "0.0.0.0", port = "5000", debug = True)
