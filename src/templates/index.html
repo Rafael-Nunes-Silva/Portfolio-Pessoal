@@ -2,52 +2,89 @@
 
 {% block style %}
     <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/Trabalhos.css">
 {% endblock %}
 
 {% block content %}
     <div id="sub-header" class="row">
         <div class="col-2"></div>
-        <div class="col-3">
+        <div class="col-2">
             <a href="#info">Informações</a>
         </div>
         <div class="col-2">
             <a href="#redes">Redes</a>
         </div>
-        <div class="col-3">
+        <div class="col-2">
+            <a href="#trabalhos-titulo">Experiência</a>
+        </div>
+        <div class="col-2">
             <a href="#formacoes-titulo">Formações</a>
         </div>
         <div class="col-2"></div>
     </div>
-    <div>
-        <div id="quem-sou" class="row">
+    <div id="quem-sou" class="row">
+        <div class="col-5">
+            <img src="static/images/MinhaFoto.jpeg" alt="Minha foto">
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5">
+            <p>Olá, meu nome é <abbr title="Alguns me chamam de NiHil">Rafael</abbr>. Sou de São José dos Campos, SP e gosto muito de programação, comecei estudando por conta própria quando tinha 14 anos e posteriormente fiz o ensino médio junto ao técnico em Desenvolvimento de Sistemas na <abbr title="ETEC Professora Ilza Nascimento Pintus"><a target="_blank" href="http://www.etecsjcampos.com.br">ETEC</a></abbr> e atualmente curso Desenvolvimento de Software Multiplataforma na <abbr title="FATEC São José dos Campos - Prof. Jessen Vidal"><a target="_blank" href="http://sjc.fatec.sp.gov.br">FATEC</a></abbr>. Claro que não gosto só de programar, também curto jogar um <abbr title="Counter-Strike 2"><a target="_blank" href="https://store.steampowered.com/app/730/CounterStrike_2/">CS</a></abbr>, <abbr title="Hunt: Showdown"><a target="_blank" href="https://store.steampowered.com/app/594650/Hunt_Showdown/">Hunt</a></abbr> ou qualquer outro jogo que me interesse. E claro, tenho meus <a href="ProjetosPessoais">projetos pessoais</a> também, você pode vê-los no <abbr title="Rafael-Nunes-Silva"><a target="_blank" href="https://github.com/Rafael-Nunes-Silva">meu Github</a></abbr>.</p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div id="info" class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <p>Nome: Rafael Nunes de Farias Silva</p>
+            <p>Contato: rafaelnfsilva.contato@gmail.com | (12) 98127-7423</p>
+            <p>Local: São José dos Campos, São Paulo</p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div id="redes" class="row">
+        <div class="col-6">
+            <img src="static/images/linkedin.png" alt="Logo Linkedin">
+            <a target="_blank" href="https://www.linkedin.com/in/rafael-nunes-silva/">Rafael-Nunes-Silva</a>
+        </div>
+        <div class="col-6">
+            <img src="static/images/github.png" alt="Logo Github">
+            <a target="_blank" href="https://github.com/Rafael-Nunes-Silva">Rafael-Nunes-Silva</a>
+        </div>
+    </div>
+    <div><!--Expretiência Profissional-->
+        <div id="trabalhos-titulo" class="row">
+            <div class="col-12">
+                <h1>Experiência Profissional</h1>
+            </div>
+        </div>
+        <div class="trabalho row">
+            <div class="col-1"></div>
+        {% for trabalho in trabalhos %}
             <div class="col-5">
-                <img src="static/images/MinhaFoto.jpeg" alt="Minha foto">
+                <h1>{{ trabalho.cargo }}</h1>
+                <div class="trabcont">
+                    <div class="trabdatas">
+                        <p>Início: {{ trabalho.inicio }}</p>
+                        {% if trabalho.trabalhoAtual %}
+                        <p>Trabalho Atual</p>
+                        {% else %}
+                        <p>Fim: {{ trabalho.fim }}</p>
+                        {% endif %}
+                    </div>
+                    <p class="descricao">{{ trabalho.descricao }}</p>
+                </div>
             </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <p>Olá, meu nome é <abbr title="Alguns me chamam de NiHil">Rafael</abbr>. Sou de São José dos Campos, SP e gosto muito de programação, comecei estudando por conta própria quando tinha 14 anos e posteriormente fiz o ensino médio junto ao técnico em Desenvolvimento de Sistemas na <abbr title="ETEC Professora Ilza Nascimento Pintus"><a target="_blank" href="http://www.etecsjcampos.com.br">ETEC</a></abbr> e atualmente curso Desenvolvimento de Software Multiplataforma na <abbr title="FATEC São José dos Campos - Prof. Jessen Vidal"><a target="_blank" href="http://sjc.fatec.sp.gov.br">FATEC</a></abbr>. Claro que não gosto só de programar, também curto jogar um <abbr title="Counter-Strike 2"><a target="_blank" href="https://store.steampowered.com/app/730/CounterStrike_2/">CS</a></abbr>, <abbr title="Hunt: Showdown"><a target="_blank" href="https://store.steampowered.com/app/594650/Hunt_Showdown/">Hunt</a></abbr> ou qualquer outro jogo que me interesse. E claro, tenho meus <a href="ProjetosPessoais">projetos pessoais</a> também, você pode vê-los no <abbr title="Rafael-Nunes-Silva"><a target="_blank" href="https://github.com/Rafael-Nunes-Silva">meu Github</a></abbr>.</p>
+            {% if not loop.first and not loop.last and loop.index % 2 == 0 %}
+                <div class="col-1"></div>
             </div>
+            <div class="trabalho row">
+                <div class="col-1"></div>
+            {% endif %}
+        {% endfor %}
             <div class="col-1"></div>
         </div>
-        <div id="info" class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <p>Nome: Rafael Nunes de Farias Silva</p>
-                <p>Contato: rafaelnfsilva.contato@gmail.com | (12) 98127-7423</p>
-                <p>Local: São José dos Campos, São Paulo</p>
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div id="redes" class="row">
-            <div class="col-6">
-                <img src="static/images/linkedin.png" alt="Logo Linkedin">
-                <a target="_blank" href="https://www.linkedin.com/in/rafael-nunes-silva/">Rafael-Nunes-Silva</a>
-            </div>
-            <div class="col-6">
-                <img src="static/images/github.png" alt="Logo Github">
-                <a target="_blank" href="https://github.com/Rafael-Nunes-Silva">Rafael-Nunes-Silva</a>
-            </div>
-        </div>
+    </div>
+    <div><!--Formações-->
         <div id="formacoes-titulo" class="row">
             <div class="col-12">
                 <h1>Formações</h1>
@@ -69,4 +106,5 @@
             </div>
             <div class="col-2"></div>
         </div>
+    </div>
 {% endblock %}

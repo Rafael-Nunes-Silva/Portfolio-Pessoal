@@ -1,3 +1,11 @@
+#trabalhos-titulo{
+    border-bottom: .1vh solid var(--charcoal);
+}
+#trabalhos-titulo .col-12{
+    background-color: var(--tan);
+    text-align: center;
+}
+
 .trabalho{
     display: flex;
     justify-content: center;
@@ -15,32 +23,62 @@
 
 .trabcont{
     background-color: var(--gold);
-    padding: 10px 0px;
+    padding-top: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+.trabcont .descricao{
+    background-color: var(--tan);
     border-radius: 0px 0px 5px 5px;
 }
 
-
-
-/* Mobile */
-@media only screen and (min-width: 360px) {
-    .trabalho{
-        flex-direction: column;
-    }
-    .trabalho .col-5{
-        width: 83.33%;
-    }
-    .trabalho h1{
-        font-size: 20px;
-    }
-    .trabcont{
-        font-size: 14px;
-    }
+.trabdatas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-
-
-/* Tablets */
-@media only screen and (min-width: 960px) {
+/* Big Desktop */
+@media only screen and (min-width: 1922px){
+    #trabalhos-titulo .col-12{
+        font-size: 36px;
+    }
+    .trabalho{
+        flex-direction: row;
+    }
+    .trabalho .col-5{
+        width: 41.66%;
+    }
+    .trabalho h1{
+        font-size: 32px;
+    }
+    .trabcont{
+        font-size: 32px;
+    }
+}
+/* Small Desktop */
+@media only screen and (min-width: 1026px) and (max-width: 1921px){
+    #trabalhos-titulo .col-12{
+        font-size: 26px;
+    }
+    .trabalho{
+        flex-direction: row;
+    }
+    .trabalho .col-5{
+        width: 41.66%;
+    }
+    .trabalho h1{
+        font-size: 26px;
+    }
+    .trabcont{
+        font-size: 26px;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 427px) and (max-width: 1025px){
+    #trabalhos-titulo .col-12{
+        font-size: 20px;
+    }
     .trabalho{
         flex-direction: row;
     }
@@ -54,21 +92,21 @@
         font-size: 24px;
     }
 }
-
-
-
-/* Desktop */
-@media only screen and (min-width: 1280px) {
+/* Mobile */
+@media only screen and (max-width: 426px){
+    #trabalhos-titulo .col-12{
+        font-size: 20px;
+    }
     .trabalho{
-        flex-direction: row;
+        flex-direction: column;
     }
     .trabalho .col-5{
-        width: 41.66%;
+        width: 83.33%;
     }
     .trabalho h1{
-        font-size: 32px;
+        font-size: 20px;
     }
     .trabcont{
-        font-size: 32px;
+        font-size: 14px;
     }
 }

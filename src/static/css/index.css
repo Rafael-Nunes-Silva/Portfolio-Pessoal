@@ -220,6 +220,12 @@
     .formacao h1{
         font-size: 24px;
     }
+    .formacao .col-2{
+        width: 8.33%;
+    }
+    .formacao .col-8{
+        width: 83.33%;
+    }
     .formacao p{
         padding: 5px;
 
@@ -267,6 +273,12 @@
     
     .formacao h1{
         font-size: 20px;
+    }
+    .formacao .col-2{
+        width: 8.33%;
+    }
+    .formacao .col-8{
+        width: 83.33%;
     }
     .formacao p{
         padding: 5px;
