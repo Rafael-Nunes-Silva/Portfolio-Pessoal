@@ -1,6 +1,11 @@
 #sub-header {
     background-color: var(--gold);
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
     border-bottom: .1vh solid var(--charcoal);
 
     text-align: center;
@@ -106,7 +111,7 @@
 /* Big Desktop */
 @media only screen and (min-width: 1922px){
     #sub-header a{
-        font-size: 32px;
+        font-size: 36px;
     }
     
     #quem-sou img{
@@ -234,7 +239,15 @@
 }
 /* Mobile */
 @media only screen and (max-width: 426px){
+    #sub-header .empty{
+        display: none;
+    }
+    #sub-header .col-2{
+        width: 40%;
+    }
     #sub-header a{
+        display: inline-block;
+        width: 100%;
         font-size: 14px;
     }
     
