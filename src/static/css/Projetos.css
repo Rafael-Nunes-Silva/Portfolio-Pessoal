@@ -1,3 +1,7 @@
+body{
+    background-color: var(--charcoal);
+}
+
 .proj-dropdown{
     background-color: var(--cream);
     border-bottom: .1vh solid var(--charcoal);
