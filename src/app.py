@@ -1,5 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, Response
 import json
+import requests
 
 app = Flask(__name__)
 
@@ -53,6 +54,14 @@ def LoadProjetos(projetos):
     with open(projetos, "r", encoding="utf-8") as projetosFile:
         fileContent = projetosFile.read()
         return json.loads(fileContent)["Periodos"]
+
+def save_response_content(response, destination):
+    CHUNK_SIZE = 32768
+
+    with open(destination, "wb") as f:
+        for chunk in response.iter_content(CHUNK_SIZE):
+            if chunk:  # filter out keep-alive new chunks
+                f.write(chunk)
 
 if __name__ == '__main__':
     app.run(host = "0.0.0.0", port = "5000", debug = True)

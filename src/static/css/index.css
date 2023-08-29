@@ -62,7 +62,7 @@
     color: var(--gold);
 }
 
-#redes .col-6{
+#redes .col-4{
     display: flex;
     align-content: center;
     justify-content: center;
