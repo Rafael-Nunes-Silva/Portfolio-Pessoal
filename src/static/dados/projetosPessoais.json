@@ -4,6 +4,12 @@
             "periodo": "2023",
             "projetos": [
                 {
+                    "imagem": "static/images/Projetos/Pessoais/BS-Programming-Language.png",
+                    "nome": "<a target='_blank' href='https://bs-online-interpreter.vercel.app/'>BS-Programming-Language</a>",
+                    "link": "https://github.com/Rafael-Nunes-Silva/BS-Programming-Language",
+                    "texto": "Esse é um projeto que fiz com o intuito de aprender como poderia ser feito um interpretador de uma linguagem de programação."
+                },
+                {
                     "imagem": "static/images/Projetos/Pessoais/Campo-Minado-Server.png",
                     "nome": "Campo-Minado-Server",
                     "link": "https://github.com/Rafael-Nunes-Silva/Campo-Minado-Server",
