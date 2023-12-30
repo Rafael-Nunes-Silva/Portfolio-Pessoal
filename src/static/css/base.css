@@ -4,11 +4,6 @@
     --primary: #364759;
     --secondary: #ffb454;
     --accent: #0096cf;
-
-    /* --tan: #364759;
-    --cream: #252832;
-    --charcoal: #ffb454;
-    --gold: #c5c5c5; */
 }
 
 * {
@@ -25,7 +20,6 @@
     width: 100%;
     padding: 1%;
     float: left;
-    /* border: .1vh solid red; */
 }
 .col-1 { width: 8.33%; }
 .col-2 { width: 16.66%; }
