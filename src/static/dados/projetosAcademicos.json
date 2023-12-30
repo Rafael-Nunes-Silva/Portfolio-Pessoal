@@ -7,7 +7,7 @@
                     "imagem": "static/images/Projetos/Academicos/Hermez.png",
                     "nome": "<a target='_blank' href='https://hermezapi.vercel.app/'>Hermez</a>",
                     "link": "https://github.com/equipedevo/API_2",
-                    "texto": "Esse foi o API do segundo semestre de DSM na FATEC.\n\nO Hermez é um sistema de gerenciamento de chamados voltado para empresas no ramo da tecnologia."
+                    "texto": "Esse foi o API do segundo semestre de DSM na FATEC.\n\nHermez é um sistema de gerenciamento de chamados voltado para empresas no ramo da tecnologia."
                 }
             ]
         },
