@@ -1,7 +1,3 @@
-header{
-    border-bottom: .1vh solid var(--cream);
-}
-
 .hobbie{
     display: flex;
     align-content: center;
@@ -18,7 +14,7 @@ header{
     width: 100%;
 }
 .hobbie p{
-    background-color: var(--gold);
+    background-color: var(--primary);
     margin-top: 15px;
     padding: 5px;
     border-radius: 15px;

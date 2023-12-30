@@ -1,22 +1,24 @@
 body{
-    background-color: var(--charcoal);
+    background-color: var(--text);
 }
 
 .proj-dropdown{
-    background-color: var(--cream);
-    border-bottom: .1vh solid var(--charcoal);
+    background-color: var(--secondary);
 }
 .proj-dropdown-btn{
-    background-color: var(--gold);
+    background-color: var(--background);
 
     display: flex;
     justify-content: center;
     cursor: pointer;
     
     width: 100%;
+
+    border-top: .1vh solid var(--accent);
+    /* border-bottom: .1vh solid var(--accent); */
 }
 .proj-dropdown-btn span{
-    background-color: var(--tan);
+    background-color: var(--primary);
 
     display: flex;
     align-items: center;
@@ -27,9 +29,7 @@ body{
     transition: .25s;
 }
 .proj-dropdown-btn span:hover{
-    background-color: var(--cream);
-
-    border: .1vh solid black;
+    padding: 2px;
 }
 .proj-dropdown-btn img{
     width: 50px;
@@ -37,6 +37,7 @@ body{
 }
 
 .projeto{
+    background-color: var(--background);
     align-items: center;
 
     flex-direction: row;
@@ -47,12 +48,12 @@ body{
 .projeto .col-5{
     width: 100%;
 
-    background-color: var(--gold);
+    background-color: var(--primary);
 
     margin: 1%;
     padding: 5px;
     border-radius: 5px;
-    border: 0.1vh solid var(--cream);
+    border: 0.1vh solid var(--accent);
 }
 .projeto img{
     width: 100%;
@@ -71,9 +72,7 @@ body{
 
 /* Big Desktop */
 @media only screen and (min-width: 1922px){
-    .proj-dropdown-btn{
-        height: 70px;
-    
+    .proj-dropdown-btn{    
         font-size: 44px;
     }
     .proj-dropdown-btn img{
@@ -87,9 +86,7 @@ body{
 }
 /* Small Desktop */
 @media only screen and (min-width: 1026px) and (max-width: 1921px){
-    .proj-dropdown-btn{
-        height: 50px;
-    
+    .proj-dropdown-btn{    
         font-size: 32px;
     }
     .proj-dropdown-btn img{
@@ -104,8 +101,6 @@ body{
 /* Tablet */
 @media only screen and (min-width: 427px) and (max-width: 1025px){
     .proj-dropdown-btn{
-        height: 38px;
-    
         font-size: 24px;
     }
     .proj-dropdown-btn img{
@@ -120,8 +115,6 @@ body{
 /* Mobile */
 @media only screen and (max-width: 426px){
     .proj-dropdown-btn{
-        height: 32px;
-    
         font-size: 24px;
     }
     .proj-dropdown-btn img{

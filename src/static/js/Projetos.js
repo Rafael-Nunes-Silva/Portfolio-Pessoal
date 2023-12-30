@@ -8,8 +8,10 @@ window.onload = function () {
             AbreFecha(dropdowns[i].children[0].children[0], dropdowns[i].children);
         });
 
-        dropdowns[i].children[0].children[0].children[0].style.display = (i == 0 ? "block" : "none");
-        dropdowns[i].children[0].children[0].children[1].style.display = (i == 0 ? "none" : "block");
+        // dropdowns[i].children[0].children[0].children[0].style.display = (i == 0 ? "block" : "none");
+        // dropdowns[i].children[0].children[0].children[1].style.display = (i == 0 ? "none" : "block");
+        dropdowns[i].children[0].children[0].children[0].style.display = (i == 0 ? "none" : "block");
+        dropdowns[i].children[0].children[0].children[1].style.display = (i == 0 ? "block" : "none");
 
         for(let j = 1; j < dropdowns[i].children.length; j++){
             dropdowns[i].children[j].style.display = (i == 0 ? "flex" : "none");

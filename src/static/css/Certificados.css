@@ -1,13 +1,11 @@
-header{
-    border-bottom: .1vh solid var(--cream);
-}
-
 .certRow{
     display: flex;
+
+    background-color: var(--background);
 }
 
 body{
-    background-color: var(--charcoal);
+    background-color: var(--text);
 }
 
 .certificado{
@@ -24,7 +22,7 @@ body{
     width: 100%;
 }
 .certificado p{
-    background-color: var(--gold);
+    background-color: var(--primary);
 
     padding: 5px;
     border-radius: 5px;

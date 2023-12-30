@@ -1,12 +1,12 @@
 #sub-header {
-    background-color: var(--gold);
+    background-color: var(--primary);
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
-    border-bottom: .1vh solid var(--charcoal);
+    /* border-bottom: .1vh solid var(--accent); */
 
     text-align: center;
 }
@@ -14,7 +14,7 @@
     margin: 2px;
     padding: 2px;
 
-    background-color: var(--tan);
+    background-color: var(--background);
 
     text-decoration: none;
 
@@ -23,12 +23,8 @@
     transition: .25s;
 }
 #sub-header a:hover{
-    background-color: var(--cream);
-
     margin: 0px;
-    padding: 4px;
-
-    border: .1vh solid black;
+    padding: 6px;
 }
 
 #quem-sou{
@@ -44,22 +40,22 @@
 #quem-sou img{
     filter: saturate(1.5) contrast(1.1) brightness(1.25);
 
-    border: .5vh solid var(--charcoal);
+    border: .25vh solid var(--accent);
     border-radius: 100%;
 }
 #quem-sou p{
-    background-color: var(--gold);
+    background-color: var(--primary);
 
     padding: 15px;
-    border: .1vh solid var(--charcoal);
+    border: .1vh solid var(--accent);
     border-radius: 5px;
 }
 
 #info{
-    background-color: var(--charcoal);
+    background-color: var(--primary);
 }
 #info p{
-    color: var(--gold);
+    color: var(--text);
 }
 
 #redes .col-4{
@@ -68,29 +64,24 @@
     justify-content: center;
     align-items: center;
 
-    border: .1vh solid var(--charcoal);
+    border: .1vh solid var(--primary);
 }
 #redes a{
-    background-color: var(--cream);
-    color: var(--charcoal);
+    color: var(--accent);
 
     border-radius: 5px;
 
     transition: .15s;
 }
 #redes a:hover{
-    background-color: var(--charcoal);
-    color: var(--gold);
+    color: var(--text);
 }
 #redes img{
     margin-right: 10px;
 }
 
-#formacoes-titulo{
-    border-bottom: .1vh solid var(--charcoal);
-}
 #formacoes-titulo .col-12{
-    background-color: var(--tan);
+    background-color: var(--primary);
     text-align: center;
 }
 
@@ -103,7 +94,7 @@
     margin: 40px 0px;
 }
 .formacao p{
-    background-color: var(--gold);
+    background-color: var(--primary);
 
     border-radius: 5px;
 }
