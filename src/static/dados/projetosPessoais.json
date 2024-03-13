@@ -1,6 +1,23 @@
 {
     "Periodos": [
         {
+            "periodo": "2024",
+            "projetos": [
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Wordle-Guide.png",
+                    "nome": "<a target='_blank' href='https://bs-online-interpreter.vercel.app/'>Wordle-Guide</a>",
+                    "link": "https://rafael-nunes-silva.github.io/Wordle-Guide",
+                    "texto": "Esse é outro projeto em Rust, dessa vez me aventurando com WebAssembly. Esse é um guia (não o melhor) para te ajudar no jogo Wordle, nele você preenche as letras que já sabe a posição, as que não sabe a posição e as que não estão na palavra, e o site te mostra palavras que se encaixam naquelas condições."
+                },
+                {
+                    "imagem": "static/images/Projetos/Pessoais/Rust-Word-Guessing.png",
+                    "nome": "Rust-Word-Guessing",
+                    "link": "https://github.com/Rafael-Nunes-Silva/BS-Programming-Language",
+                    "texto": "Esse foi meu primeiro projeto na linguagem Rust, uma linguagem que me interessou e descidi aprender em 2024. Se trata de um simples \"jogo da forca\", onde o jogador tenta adivinhar uma palavra secreta."
+                }
+            ]
+        },
+        {
             "periodo": "2023",
             "projetos": [
                 {
