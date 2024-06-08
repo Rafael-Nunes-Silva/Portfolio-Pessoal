@@ -4,7 +4,7 @@
             "periodo": "1° Sem 2024",
             "projetos": [
                 {
-                    "imagem": "static/images/Projetos/Academicos/Ctrl A.png",
+                    "imagem": "static/images/Projetos/Academicos/Ctrl_A.png",
                     "nome": "Ctrl A",
                     "link": "https://github.com/equipe-javali/API_3",
                     "texto": "Esse foi o API do terceiro semestre de DSM na FATEC.\n\nCtrl A é um sistema de gerenciamento de ativos que disponibiliza recursos para gerenciamento de ativos tangíveis e intangíveis."
