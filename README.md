@@ -18,7 +18,7 @@
 
 ### Prévia da Solução
 
-Ctrl A é um sistema de gerenciamento de ativos que disponibiliza recursos para gerenciamento de ativos tangíveis e intangíveis.
+Ctrl A é um sistema de gerenciamento de ativos que disponibiliza recursos para gerenciamento de ativos tangíveis e intangíveis, visando facilitar o manuseio dos ativos de uma empresa, sendo possível acompanhar quem atualmente possui o ativo, acompanhar manutenções do ativo, entre outros.
 
 ### Tecnologias Utilizadas
 * Figma: Prototipagem
