@@ -32,7 +32,7 @@ Ctrl A é um sistema de gerenciamento de ativos que disponibiliza recursos para 
 * Spring: Framework do Back
 
 ### Contribuições Pessoais
-Atuei de forma mais distribuida nesse projeto, comecei por modelar o banco de dados e auxiliar na extruturação do front-end, fiz algumas tarefas mais simples no front, mas principalmente partes relacionadas a conexão entre as interfaces e o back-end, no back minhas maiores contribuições foram o envio e download dos anexos dos ativos (nota fiscal dos ativos e manutenções) e os calculos dos relatórios de ativo e manutenções além da geração do arquivo excel contendo todo o histórico dos ativos e os relatórios, arquivo esse que pode ser baixado pela interface no front.
+Atuei de forma mais distribuida nesse projeto, comecei por modelar o banco de dados e auxiliar na extruturação do front-end, fiz algumas tarefas mais simples no front, mas principalmente partes relacionadas a conexão entre as interfaces e o back-end. No back minhas maiores contribuições foram o envio e download dos anexos dos ativos (nota fiscal dos ativos e manutenções) e os calculos dos relatórios de ativo e manutenções além da geração do arquivo excel contendo todo o histórico dos ativos e os relatórios, arquivo esse que pode ser baixado pela interface no front. Esta experiência aprimorou minha capacidade de comunicação e organização e planejamento dentro da equipe, essenciais para o planejamento e execução eficiente do projeto.
 
 ### Lições Aprendidas
 Além das habilidades técnicas adquiridas nas tecnologias citadas acima, pude desenvolver competências importantes em organização e comunicação em grupo, fundamentais para o planejamento e execução eficiente de um projeto.
@@ -76,7 +76,7 @@ Hermez é um sistema de gerenciamento de chamados voltado para empresas no ramo 
 * React: Framework
 
 ### Contribuições Pessoais
-Atuei principalmente no back-end desenvolvendo com JavaScript e NodeJS, fiz diversas das rotas de comunicação entre as interfaces no front e a API back-end, fazendo queries no banco de dados e tratando os dados que eram retornados para serem exibidos nas interfaces para o usuário.
+Atuei principalmente no back-end desenvolvendo com JavaScript e NodeJS, fiz diversas das rotas de comunicação entre as interfaces no front e a API back-end, fazendo queries no banco de dados e tratando os dados que eram retornados para serem exibidos nas interfaces para o usuário. A experiência neste projeto fortaleceu minhas habilidades de organização e comunicação em equipe, essenciais para coordenar tarefas e cumprir prazos de forma eficaz.
 
 ### Lições Aprendidas
 Além das habilidades técnicas adquiridas nas tecnologias citadas acima, pude desenvolver e aprimorar competências importantes em organização e comunicação em grupo, essenciais para a coordenação eficaz de tarefas e cumprimento de prazos em equipe.
@@ -116,7 +116,7 @@ O CICOVALE (Central Informativa de COVID longa do Vale do Paraíba) é um site q
 * SQL: Utilizado para a criação e manutenção do banco de dados, especificamente para guardar o ranking dos filtros mais pesquisados no site
 
 ### Contribuições Pessoais
-Nesse projeto fui o principal desenvolvedor back-end, responsável por estruturar a forma como os dados coletados do DATASUS TABNET eram utilizados e desenvolvi toda a parde da filtragem e geração dos gráficos com Python. Desenvolvi também a parte das URLs, que permitem o compartilhamento de filtros através da URL.
+Nesse projeto fui o principal desenvolvedor back-end, responsável por estruturar a forma como os dados coletados do DATASUS TABNET eram utilizados e desenvolvi toda a parde da filtragem e geração dos gráficos com Python. Desenvolvi também a parte das URLs, que permitem o compartilhamento de filtros através da URL. Esta experiência não apenas aprimorou minhas habilidades técnicas, mas também fortaleceu meu trabalho em equipe, especialmente em termos de organização e comunicação para o sucesso do projeto.
 
 ### Lições Aprendidas
 Além das habilidades técnicas adquiridas nas tecnologias citadas acima, pude desenvolver e aprimorar meu trabalho em grupo, fundamentais para o sucesso do projeto em equipe.
