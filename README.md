@@ -35,6 +35,8 @@ Ctrl A é um sistema de gerenciamento de ativos que disponibiliza recursos para 
 Atuei de forma mais distribuida nesse projeto, comecei por modelar o banco de dados e auxiliar na extruturação do front-end, fiz algumas tarefas mais simples no front, mas principalmente partes relacionadas a conexão entre as interfaces e o back-end, no back minhas maiores contribuições foram o envio e download dos anexos dos ativos (nota fiscal dos ativos e manutenções) e os calculos dos relatórios de ativo e manutenções além da geração do arquivo excel contendo todo o histórico dos ativos e os relatórios, arquivo esse que pode ser baixado pela interface no front.
 
 ### Lições Aprendidas
+Além das habilidades técnicas adquiridas nas tecnologias citadas acima, pude desenvolver competências importantes em organização e comunicação em grupo, fundamentais para o planejamento e execução eficiente de um projeto.
+
 #### Hard Skills
 * Figma: Sei fazer com autonomia
 * Git: Sei fazer com autonomia
@@ -44,8 +46,9 @@ Atuei de forma mais distribuida nesse projeto, comecei por modelar o banco de da
 * Java / Spring: Sei fazer com autonomia
 
 #### Soft Skills
-* Organização: Parte importante do desenvolvimento foi saber organizar meus horarios para conseguir cumprir minhas tarefas no grupo.
-* Comunicação: Parte de grande importância para o planejamento e andamento do projeto como um todo.
+* Organização: Continuei aprimorando minha organização para dar conta de todas as atividades que compoem o SCRUM.
+* Comunicação: Esse semestre a comunicação foi ainda mais necessária para que o andamento do projeto nadiscussão das ideias e soluções do projeto.
+* Planejamento: Precisei planejar de forma proativa o banco de dados para o projeto.
 
 
 
@@ -76,6 +79,8 @@ Hermez é um sistema de gerenciamento de chamados voltado para empresas no ramo 
 Atuei principalmente no back-end desenvolvendo com JavaScript e NodeJS, fiz diversas das rotas de comunicação entre as interfaces no front e a API back-end, fazendo queries no banco de dados e tratando os dados que eram retornados para serem exibidos nas interfaces para o usuário.
 
 ### Lições Aprendidas
+Além das habilidades técnicas adquiridas nas tecnologias citadas acima, pude desenvolver e aprimorar competências importantes em organização e comunicação em grupo, essenciais para a coordenação eficaz de tarefas e cumprimento de prazos em equipe.
+
 #### Hard Skills
 * Figma: Sei fazer com autonomia
 * Git: Sei fazer com autonomia
@@ -85,8 +90,8 @@ Atuei principalmente no back-end desenvolvendo com JavaScript e NodeJS, fiz dive
 * MySQL: Sei fazer com autonomia
 
 #### Soft Skills
-* Organização: Parte importante do desenvolvimento foi saber organizar meus horarios para conseguir cumprir minhas tarefas no grupo.
-* Comunicação: Parte de grande importância para o planejamento e andamento do projeto como um todo.
+* Organização: Agora estagiando, precisei ainda mais aprimorar minha organização para dar conta de todas as atividades que compoem o SCRUM.
+* Comunicação: Venho melhorando a comunicação com cada semestre/equipe, discutindo ideias e soluções e planejando o projeto como um todo.
 
 
 
@@ -111,9 +116,11 @@ O CICOVALE (Central Informativa de COVID longa do Vale do Paraíba) é um site q
 * SQL: Utilizado para a criação e manutenção do banco de dados, especificamente para guardar o ranking dos filtros mais pesquisados no site
 
 ### Contribuições Pessoais
-Nesse projeto fui o principal desenvolvedor back-end, fui responsável por estruturar a forma como os dados coletados do DATASUS TABNET e desenvolvi toda a parde da filtragem e geração dos gráficos com Python. Desenvolvi também a parte das URLs, que permitem o compartilhamento de filtros através da URL.
+Nesse projeto fui o principal desenvolvedor back-end, responsável por estruturar a forma como os dados coletados do DATASUS TABNET eram utilizados e desenvolvi toda a parde da filtragem e geração dos gráficos com Python. Desenvolvi também a parte das URLs, que permitem o compartilhamento de filtros através da URL.
 
 ### Lições Aprendidas
+Além das habilidades técnicas adquiridas nas tecnologias citadas acima, pude desenvolver e aprimorar meu trabalho em grupo, fundamentais para o sucesso do projeto em equipe.
+
 #### Hard Skills
 * Python: Sei fazer com autonomia;
 * HTML: Sei fazer com autonomia;
