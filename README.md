@@ -1,8 +1,32 @@
 # Rafael Nunes de Farias Silva | Portfolio Pessoal
 
+![MinhaFoto](src/static/images/MinhaFoto.jpeg)
+
+# Introdução
+
+Sou o Rafael, nascido em SJC e tenho 19 anos, comecei a estudar programação por conta própria quando tinha 14 anos, então iniciei o ensino médio junto ao curso técnico de Desenvolvimento de Distemas na ETEC, me formando em 2023. EM 2024 iniciei o curso de Desenvolvimento de Software Multiplataforma na FATEC SJC, que curso atualmente.
+
+# Contatos
+
+* [Github](https://github.com/Rafael-Nunes-Silva)
+* [LinkedIn](https://www.linkedin.com/in/rafael-nunes-silva/)
+* [E-mail](mailto:rafaelnfsilva.contato@gmail.com)
+
+# Principais Conhecimentos
+
+* Git
+* Python
+* C#
+* Rust
+* TS
+* JS
+* Java
+* SQL
+
 # Projetos
 
 ## Sumário
+* <a href="#tecsus">2024 2º Sem. | tecsus</a>
 * <a href="#Ctr_A">2024 1º Sem. | Ctr_A</a>
 * <a href="#Hermez">2023 2º Sem. | Hermez</a>
 * <a href="#Cicovale">2023 1º Sem. | Cicovale</a>
@@ -10,6 +34,54 @@
 
 
 # 2024
+
+<span id="tecsus"></span>
+## 2º Sem. tecsus
+
+![Cicovale](src/static/images/Projetos/Academicos/tecsus.png)
+
+### Prévia da Solução
+
+O objetivo do projeto foi desenvolver um sistema que receba dados dados coletados por sensores de direção e velocidade do vento, índice pluviométrico, umidade, temperatura e pressão, trate e exiba os dados em um portal capaz de disponibilizar relatórios, dashboards e demonstrar os conceitos matemáticos envolvidos nos cálculos dos parâmetros, bem como relacionar a importância do monitoramento ambiental como ferramenta para evitar desastres naturais através da geração de alertas.
+
+### Tecnologias Utilizadas
+* Figma: Prototipagem
+* Git: Versionamento
+* GitHub: Armazenamento de código e documentação
+* TypeScript: Linguagem de programação do front e back-end
+* Taiga: Organização de tarefas
+* PostgreSQL: Banco de dados
+* Neon Tech: Banco de dados PostgreSQL on-line
+* React: Framework do front-end
+* Express: Framework do back-end
+* Swagger: Documentação das rotas no back-end
+
+### Contribuições Pessoais
+Tive um foco maior no back-end e no desenvolvimento do arduino para simular as estações, defini como seria a base para a arquitetura do back-end de forma a otimizar o uso de conexões entre a API e os bancos de dados por exemplo, pois esse é um projeto que deve consumir dados de milhares de estações sem que haja perdas.
+
+### Lições Aprendidas
+Além das habilidades técnicas adquiridas nas tecnologias citadas acima, pude desenvolver competências importantes em organização e comunicação em grupo, fundamentais para o planejamento e execução eficiente de um projeto.
+
+#### Hard Skills
+* Figma: Sei fazer com autonomia
+* Git: Sei fazer com autonomia
+* GitHub: Sei fazer com autonomia
+* TypeScript / React: Sei fazer com autonomia
+* PostgreSQL: Sei fazer com autonomia
+* Taiga: Sei fazer com autonomia
+* Neon Tech: Sei fazer com autonomia
+* React: Sei fazer com autonomia
+* Express: Sei fazer com autonomia
+* Swagger: Sei fazer com autonomia
+
+#### Soft Skills
+* Organização: Continuei aprimorando minha organização para dar conta de todas as atividades que compoem o SCRUM e fui o SCRUM Master nesse projeto, então pude entender as dinâmicas envolvidas nessa posição.
+* Comunicação: Esse semestre a comunicação foi necessária para que o andamento do projeto nadiscussão das ideias e soluções do projeto.
+* Planejamento: Precisei planejar como o projeto seria capaz de suprir as necessidades de escala requisitadas pelo cliente.
+
+
+
+
 
 <span id="Ctr_A"></span>
 ## 1º Sem. Ctrl_A

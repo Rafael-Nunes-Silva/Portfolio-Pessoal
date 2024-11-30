@@ -1,6 +1,17 @@
 {
     "Periodos": [
         {
+            "periodo": "2° Sem 2024",
+            "projetos": [
+                {
+                    "imagem": "static/images/Projetos/Academicos/tecsus.png",
+                    "nome": "tecsus",
+                    "link": "https://github.com/equipe-javali/API_4",
+                    "texto": "Esse foi o API do quarto semestre de DSM na FATEC.\n\nO objetivo do projeto foi desenvolver um sistema que receba dados dados coletados por sensores de direção e velocidade do vento, índice pluviométrico, umidade, temperatura e pressão, trate e exiba os dados em um portal capaz de disponibilizar relatórios, dashboards e demonstrar os conceitos matemáticos envolvidos nos cálculos dos parâmetros, bem como relacionar a importância do monitoramento ambiental como ferramenta para evitar desastres naturais através da geração de alertas."
+                }
+            ]
+        },
+        {
             "periodo": "1° Sem 2024",
             "projetos": [
                 {
