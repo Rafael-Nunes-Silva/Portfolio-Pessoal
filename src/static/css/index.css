@@ -38,7 +38,7 @@
     align-items: center;
 }
 #quem-sou img{
-    filter: saturate(1.5) contrast(1.1) brightness(1.25);
+    /* filter: saturate(1.5) contrast(1.1) brightness(1.25); */
 
     border: .25vh solid var(--accent);
     border-radius: 100%;
