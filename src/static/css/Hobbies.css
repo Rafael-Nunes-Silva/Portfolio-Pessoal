@@ -11,10 +11,11 @@
     width: 100%;
 }
 .hobbie img{
+    border: 0.1vh solid var(--accent);
     width: 100%;
 }
 .hobbie p{
-    background-color: var(--primary);
+    border: 0.1vh solid var(--accent);
     margin-top: 15px;
     padding: 5px;
     border-radius: 15px;

@@ -20,9 +20,11 @@ body{
 }
 .certificado img{
     width: 100%;
+    border: 0.1vh solid var(--accent);
 }
 .certificado p{
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    border: 0.1vh solid var(--accent);
 
     padding: 5px;
     border-radius: 5px;

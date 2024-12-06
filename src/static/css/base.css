@@ -57,20 +57,14 @@ header a{
     margin: 2px;
     padding: 3px;
 
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
 
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none; */
 
     border-radius: 5px;
 
     transition: .25s;
-}
-header a:hover{
-    background-color: var(--primary);
-
-    margin: 0px;
-    padding: 8px;
 }
 header .col-4{
     display: flex;
@@ -110,20 +104,18 @@ body{
 }
 
 p a{
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     color: var(--text);
 
     border-radius: 5px;
 
     transition: .15s;
 }
-p a:hover{
-    background-color: var(--text);
-    color: var(--primary);
-}
 
 footer{
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    border: .1vh solid var(--primary);
+    background-color: var(--background);
 }
 footer a{
     font-size: 32px;

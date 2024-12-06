@@ -1,5 +1,5 @@
 #sub-header {
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
 
     display: flex;
     flex-direction: row;
@@ -10,55 +10,61 @@
 
     text-align: center;
 }
-#sub-header a{
+
+#sub-header a {
     margin: 2px;
     padding: 2px;
 
-    background-color: var(--background);
+    /* background-color: var(--background); */
 
-    text-decoration: none;
+    /* text-decoration: none; */
 
     border-radius: 5px;
 
     transition: .25s;
 }
-#sub-header a:hover{
+
+#sub-header a:hover {
     margin: 0px;
     padding: 6px;
 }
 
-#quem-sou{
+#quem-sou {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     align-items: center;
 }
-#quem-sou .col-5{
+
+#quem-sou .col-5 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#quem-sou img{
+
+#quem-sou img {
     /* filter: saturate(1.5) contrast(1.1) brightness(1.25); */
 
     border: .25vh solid var(--accent);
     border-radius: 100%;
 }
-#quem-sou p{
-    background-color: var(--primary);
+
+#quem-sou p {
+    /* background-color: var(--primary); */
 
     padding: 15px;
     border: .1vh solid var(--accent);
     border-radius: 5px;
 }
 
-#info{
-    background-color: var(--primary);
+#info {
+    /* background-color: var(--primary); */
 }
-#info p{
+
+#info p {
     color: var(--text);
 }
 
-#redes .col-4{
+#redes .col-4 {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -66,225 +72,263 @@
 
     border: .1vh solid var(--primary);
 }
-#redes a{
+
+#redes a {
     color: var(--accent);
 
     border-radius: 5px;
 
     transition: .15s;
 }
-#redes a:hover{
+
+#redes a:hover {
     color: var(--text);
 }
-#redes img{
+
+#redes img {
     margin-right: 10px;
 }
 
-#formacoes-titulo .col-12{
-    background-color: var(--primary);
+#formacoes-titulo .col-12 {
+    /* background-color: var(--primary); */
     text-align: center;
+    border: .1vh solid var(--primary);
 }
 
-.formacao{
+.formacao {
     display: flex;
 
     align-items: center;
     text-align: center;
 
-    margin: 40px 0px;
+    /* margin: 40px 0px; */
 }
-.formacao p{
-    background-color: var(--primary);
+
+.formacao p {
+    /* background-color: var(--primary); */
 
     border-radius: 5px;
 }
 
+.formacao .col-8 {
+    /* background-color: var(--primary); */
+
+    border: .1vh solid var(--primary);
+}
+
 /* Big Desktop */
-@media only screen and (min-width: 1922px){
-    #sub-header a{
+@media only screen and (min-width: 1922px) {
+    #sub-header a {
         font-size: 36px;
     }
-    
-    #quem-sou img{
+
+    #quem-sou img {
         width: 80%;
     }
-    #quem-sou p{
+
+    #quem-sou p {
         font-size: 44px;
     }
-    
-    #info{
+
+    #info {
         font-size: 40px;
     }
-    
-    #redes .col-6{
+
+    #redes .col-6 {
         flex-direction: row;
     }
-    #redes a{
+
+    #redes a {
         font-size: 44px;
     }
-    #redes img{
+
+    #redes img {
         width: 50px;
         height: 50px;
     }
-    
-    #formacoes-titulo .col-12{
+
+    #formacoes-titulo .col-12 {
         font-size: 36px;
     }
-    
-    .formacao h1{
+
+    .formacao h1 {
         font-size: 60px;
     }
-    .formacao p{
+
+    .formacao p {
         padding: 20px;
 
         font-size: 40px;
     }
 }
+
 /* Small Desktop */
-@media only screen and (min-width: 1026px) and (max-width: 1921px){
-    #sub-header a{
+@media only screen and (min-width: 1026px) and (max-width: 1921px) {
+    #sub-header a {
         font-size: 24px;
     }
-    
-    #quem-sou img{
+
+    #quem-sou img {
         width: 80%;
     }
-    #quem-sou p{    
+
+    #quem-sou p {
         font-size: 26px;
     }
-    
-    #info{
+
+    #info {
         font-size: 28px;
     }
-    
-    #redes .col-6{
+
+    #redes .col-6 {
         flex-direction: row;
     }
-    #redes a{
+
+    #redes a {
         font-size: 26px;
     }
-    #redes img{
+
+    #redes img {
         width: 30px;
         height: 30px;
     }
-    
-    #formacoes-titulo .col-12{
+
+    #formacoes-titulo .col-12 {
         font-size: 26px;
     }
-    
-    .formacao h1{
+
+    .formacao h1 {
         font-size: 36px;
     }
-    .formacao p{
+
+    .formacao p {
         padding: 20px;
 
         font-size: 28px;
     }
 }
+
 /* Tablet */
-@media only screen and (min-width: 427px) and (max-width: 1025px){
-    #sub-header a{
+@media only screen and (min-width: 427px) and (max-width: 1025px) {
+    #sub-header a {
         font-size: 16px;
     }
-    
-    #quem-sou img{
+
+    #quem-sou img {
         width: 90%;
     }
-    #quem-sou p{
+
+    #quem-sou p {
         font-size: 15px;
     }
-    
-    #info{
+
+    #info {
         font-size: 20px;
     }
-    
-    #redes .col-6{
+
+    #redes .col-6 {
         flex-direction: row;
     }
-    #redes a{
+
+    #redes a {
         font-size: 18px;
     }
-    #redes img{
+
+    #redes img {
         width: 30px;
         height: 30px;
     }
-    
-    #formacoes-titulo .col-12{
+
+    #formacoes-titulo .col-12 {
         font-size: 20px;
     }
-    
-    .formacao h1{
+
+    .formacao h1 {
         font-size: 24px;
     }
-    .formacao .col-2{
+
+    .formacao .col-2 {
         width: 8.33%;
     }
-    .formacao .col-8{
+
+    .formacao .col-8 {
         width: 83.33%;
     }
-    .formacao p{
+
+    .formacao p {
         padding: 5px;
 
         font-size: 16px;
     }
 }
+
 /* Mobile */
-@media only screen and (max-width: 426px){
-    #sub-header .empty{
+@media only screen and (max-width: 426px) {
+    #sub-header .empty {
         display: none;
     }
-    #sub-header .col-2{
+
+    #sub-header .col-2 {
         width: 40%;
     }
-    #sub-header a{
+
+    #sub-header a {
         display: inline-block;
         width: 100%;
         font-size: 14px;
     }
-    
-    #quem-sou{
+
+    #quem-sou {
         flex-direction: column;
     }
-    #quem-sou .col-5{
+
+    #quem-sou .col-5 {
         width: 100%;
     }
-    #quem-sou img{
+
+    #quem-sou img {
         width: 80%;
     }
-    #quem-sou p{
+
+    #quem-sou p {
         width: 90%;
         font-size: 14px;
     }
-    
-    #info{
+
+    #info {
         font-size: 18px;
     }
-    
-    #redes .col-6{
+
+    #redes .col-6 {
         flex-direction: column;
     }
-    #redes a{
+
+    #redes a {
         font-size: 18px;
     }
-    #redes img{
+
+    #redes img {
         width: 30px;
         height: 30px;
     }
-    
-    #formacoes-titulo .col-12{
+
+    #formacoes-titulo .col-12 {
         font-size: 20px;
     }
-    
-    .formacao h1{
+
+    .formacao h1 {
         font-size: 20px;
     }
-    .formacao .col-2{
+
+    .formacao .col-2 {
         width: 8.33%;
     }
-    .formacao .col-8{
+
+    .formacao .col-8 {
         width: 83.33%;
     }
-    .formacao p{
+
+    .formacao p {
         padding: 5px;
 
         font-size: 14px;
