@@ -1,7 +1,7 @@
 :root{
     --text: #c5c5c5;
-    --background: #252832;
-    --primary: #364759;
+    --background: #131516;
+    --primary: #293849;
     --secondary: #ffb454;
     --accent: #0096cf;
 }
@@ -99,7 +99,7 @@ body{
 }
 
 .divisor{
-    background-color: var(--accent);
+    background-color: var(--primary);
     height: .25vh;
 }
 
